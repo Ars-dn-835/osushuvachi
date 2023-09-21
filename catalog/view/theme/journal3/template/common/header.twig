@@ -1,0 +1,345 @@
+{% if j3 is not defined %}
+  <style>
+    body {
+      display: none !important;
+    }
+  </style>
+  <script>
+    window.location = 'index.php?route=journal3/startup/error';
+  </script>
+{% endif %}
+<!DOCTYPE html>
+<html dir="{{ direction }}" lang="{{ lang }}" class="{{ j3.document.getClasses() | join(' ') }}" data-jb="{{ j3.constant('JOURNAL3_BUILD') }}" data-jv="{{ j3.constant('JOURNAL3_VERSION') }}" data-ov="{{ constant('VERSION') }}">
+<head typeof="og:website">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{ title }}</title>
+<link href="catalog/view/theme/journal3/fonts/custom_fonts.css" rel="stylesheet" type="text/css">
+<base href="{{ base }}" />
+{% if j3.document.hasFonts() %}
+<link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+{% endif %}
+{% if description %}
+<meta name="description" content="{{ description }}" />
+{% endif %}
+{% if keywords %}
+<meta name="keywords" content="{{ keywords }}" />
+{% endif %}
+{% if not j3.document.isPopup() %}
+{% for key, tag in j3.loadController('journal3/seo/meta_tags') %}
+<meta {{ tag.type }}="{{ key }}" content="{{ tag.content }}"/>
+{% endfor %}
+{% endif %}
+{% if j3.constant('SENTRY_JS_DSN') %}
+{{ j3.constant('SENTRY_JS_DSN') }}
+{% endif %}
+<script>window['Journal'] = {{ j3.document.getJs() | json_encode }};</script>
+{% if not j3.document.isPopup() %}
+<script>{{ j3.loadController('journal3/mql') }}</script>
+{% endif %}
+{% if j3.document.hasFonts() %}
+{% if j3.settings.get('performanceAsyncFontsStatus') %}
+<script>WebFontConfig = { google: { families: {{ j3.document.getFonts(true) }} } };</script>
+{% else %}
+<link href="https://fonts.googleapis.com/css?family={{ j3.document.getFonts(false) }}" type="text/css" rel="stylesheet"/>
+{% endif %}
+{% endif %}
+{% for style in j3.document.getStyles(styles) %}
+{% if style.content %}
+<style>{{ style.content }}</style>
+{% else %}
+<link href="{{ j3.document.staticUrl(style.href, false) }}" type="text/css" rel="{{ style.rel }}" media="all" />
+{% endif %}
+{% endfor %}
+{% for link in links %}
+<link href="{{ link.href }}" rel="{{ link.rel }}" />
+{% endfor %}
+{% for analytic in analytics %}
+{{ analytic }}
+{% endfor %}
+<style>
+{{ j3.document.getCss() }}
+</style>
+{% if j3.settings.get('customCSS') %}
+<style>{{ j3.settings.get('customCSS') }}</style>
+{% endif %}
+{% for script in j3.document.getScripts('header', scripts) %}
+<script src="{{ j3.document.staticUrl(script, false) }}" {% if j3.settings.get('performanceJSDefer') %} defer {% endif %}></script>
+{% endfor %}
+{% if j3.settings.get('customCodeHeader') %}
+{{ j3.settings.get('customCodeHeader') }}
+{% endif %}
+  <link rel="stylesheet" type="text/css" href="catalog/view/theme/journal3/stylesheet/styleone.css" >
+  <link rel="stylesheet" type="text/css" href="catalog/view/theme/journal3/stylesheet/stylesecond.css" >
+</head>
+<body class="{{ class }}">
+
+{% if j3.settings.get('oldBrowserStatus') %}
+<div class="old-browser">
+  <div class="ob-content">
+    <h2 class="ob-title">{{ j3.settings.get('oldBrowserTitle') }}</h2>
+    <span class="ob-text">{{ j3.settings.get('oldBrowserText') }}</span>
+    <div class="ob-links">
+      <a href="https://www.google.com/chrome/" target="_blank" rel="nofollow">
+        <img src="{{ j3.settings.get('oldBrowserChrome') }}" alt="Chrome" />
+        <span class="ob-name">Chrome</span>
+      </a>
+      <a href="https://www.mozilla.org/firefox/new/" target="_blank" rel="nofollow">
+        <img src="{{ j3.settings.get('oldBrowserFirefox') }}" alt="Firefox" />
+        <span class="ob-name">Firefox</span>
+      </a>
+      <a href="https://www.microsoft.com/en-us/windows/microsoft-edge" target="_blank" rel="nofollow">
+        <img src="{{ j3.settings.get('oldBrowserEdge') }}" alt="edge" />
+        <span class="ob-name">Microsoft Edge</span>
+      </a>
+      <a href="https://www.opera.com/" target="_blank" rel="nofollow">
+        <img src="{{ j3.settings.get('oldBrowserOpera') }}" alt="opera" />
+        <span class="ob-name">Opera</span>
+      </a>
+      <a href="https://www.apple.com/lae/safari/" target="_blank" rel="nofollow">
+        <img src="{{ j3.settings.get('oldBrowserSafari') }}" alt="safari" />
+        <span class="ob-name">Safari on Mac</span>
+      </a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if not j3.document.isPopup() %}
+<div class="mobile-container mobile-main-menu-container">
+  <div class="mobile-wrapper-header">
+{#    <span>{{ j3.settings.get('headerMobileMenuTitle') }}</span>#}
+    <div id="logo">
+      {% if j3.settings.get('logo_src') %}
+        <a href="{{ home }}">
+          <img src="{{ j3.settings.get('logo_src') }}" {% if j3.settings.get('logo2x_src') %}srcset="{{ j3.settings.get('logo_src') }} 1x, {{ j3.settings.get('logo2x_src') }} 2x"{% endif %} width="{{ j3.settings.get('logo_width') }}" height="{{ j3.settings.get('logo_height') }}" alt="{{ name }}" title="{{ name }}"/>
+        </a>
+      {% else %}
+        <h1><a href="{{ home }}">{{ name }}</a></h1>
+      {% endif %}
+    </div>
+    {% if j3.settings.get('mobileLangPosition') == 'menu' %}
+      <div class="language-currency top-menu">
+        <div class="mobile-currency-wrapper">
+            {{ j3.document.hasClass('mobile-header-active') ? currency : '' }}
+        </div>
+        <div class="mobile-language-wrapper">
+            {{ j3.document.hasClass('mobile-header-active') ? language : '' }}
+        </div>
+      </div>
+    {% endif %}
+    <a class="x"></a>
+  </div>
+  <div class="mobile-main-menu-wrapper">
+    <div class="contact-info-cust">
+      <div class="social-icons-cust">
+        <div class="social-icons-left-cust">
+          <div class="icons-items-cust"><a href="#"><img src="{{ base }}image/catalog/icons/facebook.svg" alt="Facebook"></a></div>
+          <div class="icons-items-cust"><a href="#"><img src="{{ base }}image/catalog/icons/telegram.svg" alt="Telegram"></a></div>
+          <div class="icons-items-cust"><a href="#"><img src="{{ base }}image/catalog/icons/instagram.svg" alt="Instagram"></a></div>
+          <div class="icons-items-cust"><a href="#"><img src="{{ base }}image/catalog/icons/youtube.svg" alt="YouTube"></a></div>
+        </div>
+        <div class="social-icons-right-cust">
+          <a href="#"><img class="telephone-mobile-cust" src="{{ base }}image/catalog/icons/telephone.svg" alt=Telephone><span class="number-text-cust">0 800 000 000</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-language-wrapper">
+
+      <div id="language" class="language">
+        <form>
+          <div class="dropdown drop-menu">
+            <div class="dropdown-menu j-dropdown">
+              <ul class="j-menu j-menu_mob">
+                <li>
+                  <a data-active="true" class="language-select" href="{{ base }}ru/">
+                    <span class="language-title-dropdown">Російська</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="language-select no-active-lang-cust" href="{{ base }}">
+                    <span class="language-title-dropdown">Українська</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
+
+{#      {{ j3.document.hasClass('mobile-header-active') ? language : '' }}#}
+    </div>
+    {{ j3.document.isPhone() or (j3.document.isTablet() and j3.settings.get('mobileHeaderOn') == 'tablet') ? j3.settings.get('mobile_main_menu') : '' }}
+  </div>
+</div>
+
+<div class="mobile-container mobile-filter-container">
+  <div class="mobile-wrapper-header"></div>
+  <div class="mobile-filter-wrapper"></div>
+</div>
+
+<div class="mobile-container mobile-cart-content-container">
+  <div class="mobile-wrapper-header">
+    <span>{{ j3.settings.get('headerMobileCartTitle') }}</span>
+    <a class="x"></a>
+  </div>
+  <div class="mobile-cart-content-wrapper cart-content"></div>
+</div>
+{% endif %}
+
+{{ j3.loadController('journal3/layout', 'popup') }}
+
+<div class="site-wrapper">
+
+  {{ j3.loadController('journal3/layout', 'header_notice') }}
+
+  {% if not j3.document.isPopup() %}
+  <header class="header-{{ j3.settings.get('headerType') }}">
+    {% if not j3.document.hasClass('mobile-header-active') and j3.settings.get('headerType') %}
+      {% include 'journal3/template/journal3/headers/desktop/' ~ j3.settings.get('headerType') ~ '.twig' %}
+    {% endif %}
+    {% if j3.settings.get('mobileHeaderType') %}
+      {% include 'journal3/template/journal3/headers/mobile/header_mobile_' ~ j3.settings.get('mobileHeaderType') ~ '.twig' %}
+    {% endif %}
+  </header>
+  {% endif %}
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      var currentURL = window.location.href;
+      var languageTitle = document.querySelector(".language-title");
+      if (currentURL.includes("ru/")) {
+      languageTitle.textContent = "Російська";
+    } else {
+      languageTitle.textContent = "Українська";
+    }
+    });
+      document.addEventListener("DOMContentLoaded", function() {
+      var currentURL = window.location.href.replace(/^https:\/\//, "");
+      currentURL = currentURL.replace(/\/{2,}/g, "/");
+      if (!currentURL.endsWith("/")) {
+      currentURL += "/";
+    }
+      var languageTitle = document.querySelector(".language-title");
+      if (currentURL.includes("/ru/")) {
+      languageTitle.textContent = "Російська";
+    } else {
+      // В іншому випадку, встановити текст "Українська"
+      languageTitle.textContent = "Українська";
+    }
+    });
+      document.addEventListener("DOMContentLoaded", function() {
+        var currentURL = window.location.href.replace(/^https:\/\//, "");
+        currentURL = currentURL.replace(/\/{2,}/g, "/");
+        if (!currentURL.endsWith("/")) {
+          currentURL += "/";
+        }
+        var menuItems = document.querySelectorAll(".j-menu_mob li");
+        var hasRuLanguage = currentURL.includes("/ru/");
+        if (hasRuLanguage) {
+          menuItems[0].classList.add("j-menu_language_active");
+          menuItems[1].classList.remove("j-menu_language_active");
+        } else {
+          menuItems[1].classList.add("j-menu_language_active");
+          menuItems[0].classList.remove("j-menu_language_active");
+        }
+      });
+
+      // document.addEventListener("DOMContentLoaded", function() {
+      //   var currentURL = window.location.href.replace(/^https:\/\//, "");
+      //   currentURL = currentURL.replace(/\/{2,}/g, "/");
+      //   if (!currentURL.endsWith("/")) {
+      //     currentURL += "/";
+      //   }
+      //   window.history.replaceState({}, "", "https://" + currentURL);
+      // });
+
+  </script>
+
+  {{ j3.loadController('journal3/layout', 'fullscreen_slider') }}
+<style>
+  .contact-info-cust{
+    background-color: #FFF;
+    margin-top:30px;
+  }
+  .social-icons-cust{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .mobile-language-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+.social-icons-left-cust{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.social-icons-right-cust{
+  display: flex;
+  width: 48%;
+  align-items: center;
+}
+  .telephone-mobile-cust{
+    margin-right: 8px;
+  }
+  .number-text-cust{
+    color:#343434;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .mobile-main-menu-wrapper .item-assets img {
+    width: 30%;
+  }
+  .j-menu_language_active .language-select {
+    background-color: #3591D0 !important;
+    border-radius: 3px !important;
+  }
+</style>
+
+  <script>
+    const megaFullWidthItem = document.querySelector('.mega-fullwidth');
+    const menuItems = document.querySelectorAll('.multi-level');
+    const textCatalog = document.querySelectorAll('.links-text');
+    const contactInfo = document.querySelectorAll('.contact-info-cust');
+
+    let isHidden = false; // Змінна для відстеження стану
+
+    megaFullWidthItem.addEventListener('click', () => {
+      if (isHidden) {
+        menuItems.forEach(menuItem => {
+          menuItem.style.display = 'block'; // Показуємо елементи
+          textCatalog.forEach(textItem => {
+            textItem.style.color = ''; // Змінюємо колір тексту
+          });
+        });
+        isHidden = false;
+      } else {
+        menuItems.forEach(menuItem => {
+          if (menuItem !== megaFullWidthItem) {
+            menuItem.style.display = 'none';
+          }
+          textCatalog.forEach(textItem => {
+            textItem.style.color = '#3591D0'; // Змінюємо колір тексту
+          });
+          contactInfo.forEach(textItem => {
+            textItem.style.display = 'none';
+          });
+        });
+        isHidden = true;
+      }
+    });
+  </script>

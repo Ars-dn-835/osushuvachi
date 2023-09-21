@@ -1,0 +1,134 @@
+<?php $val = array (
+  'css' => '.icons-menu-377
+a{background:rgba(8, 39, 77, 1);width:40px;height:40px}.desktop .icons-menu-377 a:hover{background:rgba(53, 145, 208, 1)}.icons-menu-377 a::before{color:rgba(255, 255, 255, 1)}.icons-menu-377 .menu-item
+a{border-radius:50px}.icons-menu-377>ul{margin-bottom:21px}.icons-menu-377 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis;display:none}.icons-menu-377>ul>.icons-menu-item{padding:calc(10px / 2)}.icons-menu-377
+ul{justify-content:flex-start}.icons-menu-377 .module-title{text-align:left}.icons-menu-377 .module-title::after{left:0;right:auto;transform:none}.icons-menu-377 .icons-menu-item-1.icon-menu-icon>a::before{content:\'\\e9eb\' !important;font-family:icomoon !important}.icons-menu-377 .icons-menu-item-1.icon-menu-icon>a{background:rgba(29, 157, 222, 1)}.icons-menu-377 .icons-menu-item-2.icon-menu-icon>a::before{content:\'\\e0cd\' !important;font-family:icomoon !important}.icons-menu-377 .icons-menu-item-2.icon-menu-icon>a{background:rgba(79, 202, 93, 1)}.icons-menu-377 .icons-menu-item-3.icon-menu-icon>a::before{content:\'\\e931\' !important;font-family:icomoon !important}.icons-menu-377 .icons-menu-item-3.icon-menu-icon>a{background:rgba(145, 121, 238, 1)}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'tooltipStatus' => true,
+    'tooltipPosition' => 'top',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'icons-menu-650ace1856b39',
+    'module_id' => 377,
+    'classes' => 
+    array (
+      0 => 'icons-menu',
+      1 => 'icons-menu-377',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => '#',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => '#',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => '#',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-3',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

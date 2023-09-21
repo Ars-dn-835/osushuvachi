@@ -1,0 +1,35 @@
+<?php $val = array (
+  'css' => '.module-title-321{font-family:Proxima Nova SmBl}.module-title-321
+.subtitle{display:inline-block;font-family:Proxima Nova SmBl;font-size:20px;color:rgba(255, 255, 255, 1);font-weight:400;max-width:487px}.module-title-321 .title-divider{display:block;max-width:50px;height:0px;margin-top:10px;margin-bottom:10px;margin-left:0;margin-right:auto}.module-title-321 .title-wrapper{text-align:left}.module-title-321
+h3{font-family:Proxima Nova Bl;font-size:38px;color:rgba(255, 255, 255, 1);font-weight:700;padding-top:150px;padding-bottom:10px}.module-title-321 .title-wrapper
+.subtitle{font-family:Proxima Nova SmBl}.module-title-321 .title-wrapper::before{opacity:.05;display:none}@media (max-width: 760px){.module-title-321
+h3{font-size:26px}}@media (max-width: 470px){.module-title-321 .title-wrapper
+.subtitle{font-size:18px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Де купити?',
+    'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  ex ea commodo consequat.',
+    'status' => true,
+    'id' => 'title-650ace182ef57',
+    'module_id' => 321,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-321',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

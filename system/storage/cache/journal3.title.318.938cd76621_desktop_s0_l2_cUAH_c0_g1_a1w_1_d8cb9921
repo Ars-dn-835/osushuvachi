@@ -1,0 +1,33 @@
+<?php $val = array (
+  'css' => '.module-title-318
+.subtitle{display:inline-block;font-family:Proxima Nova Rg;font-size:18px;color:rgba(0, 0, 0, 1);font-weight:400}.module-title-318 .title-divider{display:none;max-width:50px;height:5px;margin-top:10px;margin-bottom:10px;margin-left:0;margin-right:auto}.module-title-318 .title-wrapper{text-align:left}.module-title-318
+h3{font-family:Proxima Nova Bl;font-size:24px;color:rgba(0, 0, 0, 1);font-weight:700;padding-bottom:19px}.module-title-318 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 470px){.module-title-318 .title-wrapper
+h3{font-family:Proxima Nova Bl;font-size:20px;color:rgba(0, 0, 0, 1);font-weight:400}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Европейское <br>качество',
+    'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    'status' => true,
+    'id' => 'title-650acd5313ef4',
+    'module_id' => 318,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-318',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

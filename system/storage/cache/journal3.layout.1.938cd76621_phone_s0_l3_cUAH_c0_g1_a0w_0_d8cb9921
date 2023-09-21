@@ -1,0 +1,977 @@
+<?php $val = array (
+  'settings' => 
+  array (
+    'column_left' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'column_right' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'top' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '367',
+                    'name' => 'Slider Top Home Copy',
+                    'type' => 'master_slider',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-2',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-2-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-2-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '368',
+                    'name' => 'Каталог',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-3',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-3-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-3-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '343',
+                    'name' => 'Хіти продажів',
+                    'type' => 'products',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-4',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-4-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-4-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '307',
+                    'name' => 'Заголовок Побутові осушувачі',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-4-3',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-4-3-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '323',
+                    'name' => 'Побутові осушувачі',
+                    'type' => 'products',
+                  ),
+                ),
+              ),
+            ),
+            4 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-4-4',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-4-4-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '369',
+                    'name' => 'Побутові осушувачі всі моделі Моб',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-5',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-5-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-5-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '310',
+                    'name' => 'Заголовок Осушувачі для басейнів',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-5-3',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-5-3-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '313',
+                    'name' => 'Осушувачі для басейнів',
+                    'type' => 'products',
+                  ),
+                ),
+              ),
+            ),
+            4 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-5-4',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-5-4-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '371',
+                    'name' => 'Осушувачі для басейнів всі моделі Моб',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        6 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-6',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-6-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-6-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '311',
+                    'name' => 'Заголовок Промислові осушувачі',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-6-3',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-6-3-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '312',
+                    'name' => 'Промислові осушувачі',
+                    'type' => 'products',
+                  ),
+                ),
+              ),
+            ),
+            4 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-6-4',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-6-4-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '370',
+                    'name' => 'Промислові осушувачі всі моделі Моб',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        10 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-10',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-10-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-10-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '315',
+                    'name' => 'Email',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-10-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-10-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '316',
+                    'name' => 'Home Helpletter',
+                    'type' => 'newsletter',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        11 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-11',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-11-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-11-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '317',
+                    'name' => 'Чому обирають нас?',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-11-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-11-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '318',
+                    'name' => 'Європейська якість',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-11-3',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-11-3-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '319',
+                    'name' => 'Функціональність і економічність',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            4 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-11-4',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-11-4-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '320',
+                    'name' => 'Сервісна підтримка в Україні',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        12 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-12',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-12-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-12-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '321',
+                    'name' => 'Де купити?',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-12-1-2',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '322',
+                    'name' => 'Пункти продажу',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'bottom' => 
+    array (
+      'rows' => 
+      array (
+        2 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-bottom-2',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-2-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-2-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '324',
+                    'name' => 'Новини',
+                    'type' => 'blog_posts',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-bottom-3',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-3-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-3-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '360',
+                    'name' => 'Заголовок корисні матеріали',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-3-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-3-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '361',
+                    'name' => 'Корисні матеріали всі новини',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-3-3',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-3-3-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '325',
+                    'name' => 'Корисні матеріали',
+                    'type' => 'blog_posts',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-bottom-4',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-4-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-4-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '326',
+                    'name' => 'Осушувачі повітря',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-4-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-4-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '339',
+                    'name' => 'Осушувачі повітря',
+                    'type' => 'grid',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'header_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'global' => 
+    array (
+      0 => 
+      array (
+        'module_id' => '137',
+        'module_type' => 'notification',
+      ),
+      1 => 
+      array (
+        'module_id' => '266',
+        'module_type' => 'bottom_menu',
+      ),
+    ),
+  ),
+  'php' => 
+  array (
+    'headerDesktop' => '',
+    'headerMobile' => '',
+    'footerMenu' => '',
+    'footerMenuPhone' => '',
+  ),
+  'js' => 
+  array (
+  ),
+  'fonts' => 
+  array (
+  ),
+  'css' => '.grid-row-top-1{background:rgba(240,242,245,1)}.grid-row-top-1::before{display:block;left:0;width:100vw}.grid-row-top-1>.grid-cols{max-width:100% !important}.grid-row-top-1 .wave-top{display:block}.grid-row-top-1 .wave-bottom{display:block}.grid-col-top-1-1{width:100%}.grid-col-top-1-1 .grid-item{height:auto}.grid-col-top-1-1 .grid-items{justify-content:flex-start}.grid-item-top-1-1-1{width:100%}.grid-row-top-2{background:rgba(240,242,245,1)}.grid-row-top-2::before{display:block;left:0;width:100vw}.grid-row-top-2>.grid-cols{max-width:100% !important}.grid-row-top-2 .wave-top{display:block}.grid-row-top-2 .wave-bottom{display:block}.grid-col-top-2-1{width:100%;padding-top:22px;padding-right:16px;padding-left:16px}.grid-col-top-2-1 .grid-item{height:auto}.grid-col-top-2-1 .grid-items{justify-content:flex-start}.grid-item-top-2-1-1{width:100%}.grid-row-top-3::before{display:block;background:rgba(247,247,251,1);left:0;width:100vw}.grid-row-top-3{padding-top:100px;padding-bottom:40px}.grid-row-top-3 .wave-top{display:block}.grid-row-top-3 .wave-bottom{display:block}@media (max-width: 980px){.grid-row-top-3{padding-top:36px;padding-left:15px}}.grid-col-top-3-1{width:100%}.grid-col-top-3-1 .grid-item{height:auto}.grid-col-top-3-1 .grid-items{justify-content:flex-start}.grid-item-top-3-1-1{width:100%}.grid-row-top-4{background:rgba(247,247,251,1);padding:20px}.grid-row-top-4::before{display:block;left:0;width:100vw}.grid-row-top-4 .wave-top{display:block}.grid-row-top-4 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-4{padding-top:37px;padding-right:15px;padding-left:15px}}.grid-col-top-4-1{width:50%}.grid-col-top-4-1 .grid-item{height:auto}.grid-col-top-4-1 .grid-items{justify-content:flex-start}@media (max-width: 470px){.grid-col-top-4-1{width:70%}}.grid-item-top-4-1-1{width:100%}.grid-col-top-4-3{width:100%}.grid-col-top-4-3 .grid-item{height:auto}.grid-col-top-4-3 .grid-items{justify-content:flex-start}.grid-item-top-4-3-1{width:100%}.grid-col-top-4-4{width:100%}.grid-col-top-4-4 .grid-item{height:auto}.grid-col-top-4-4 .grid-items{justify-content:flex-start}.grid-item-top-4-4-1{width:100%}.grid-row-top-5{background:rgba(247,247,251,1);padding:20px}.grid-row-top-5::before{display:block;left:0;width:100vw}.grid-row-top-5 .wave-top{display:block}.grid-row-top-5 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-5{padding-top:36px}}.grid-col-top-5-1{width:50%}.grid-col-top-5-1 .grid-item{height:auto}.grid-col-top-5-1 .grid-items{justify-content:flex-start}@media (max-width: 470px){.grid-col-top-5-1{width:100%}}.grid-item-top-5-1-1{width:100%}.grid-col-top-5-3{width:100%}.grid-col-top-5-3 .grid-item{height:auto}.grid-col-top-5-3 .grid-items{justify-content:flex-start}.grid-item-top-5-3-1{width:100%}.grid-col-top-5-4{width:100%}.grid-col-top-5-4 .grid-item{height:auto}.grid-col-top-5-4 .grid-items{justify-content:flex-start}.grid-item-top-5-4-1{width:100%}.grid-row-top-6{background:rgba(247,247,251,1);padding:20px}.grid-row-top-6::before{display:block;left:0;width:100vw}.grid-row-top-6 .wave-top{display:block}.grid-row-top-6 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-6{padding-top:36px}}.grid-col-top-6-1{width:50%}.grid-col-top-6-1 .grid-item{height:auto}.grid-col-top-6-1 .grid-items{justify-content:flex-start}@media (max-width: 470px){.grid-col-top-6-1{width:100%}}.grid-item-top-6-1-1{width:100%}.grid-col-top-6-3{width:100%}.grid-col-top-6-3 .grid-item{height:auto}.grid-col-top-6-3 .grid-items{justify-content:flex-start}.grid-item-top-6-3-1{width:100%}.grid-col-top-6-4{width:100%}.grid-col-top-6-4 .grid-item{height:auto}.grid-col-top-6-4 .grid-items{justify-content:flex-start}.grid-item-top-6-4-1{width:100%}.grid-row-top-10{background-image:url(\'https://osushuvachi.webfun.com.ua/image/cache/catalog/-свій-email%201-1445x272.jpg\');background-position:center center;background-repeat:no-repeat;padding-right:20px;padding-left:20px}.grid-row-top-10::before{display:block;left:-50%;width:100%}.grid-row-top-10>.grid-cols{max-width:1440px}.grid-row-top-10 .wave-top{display:block}.grid-row-top-10 .wave-bottom{display:block}@media (max-width: 980px){.grid-row-top-10{padding-bottom:20px}}.grid-col-top-10-1{width:30%;padding-top:77px;padding-right:0px;padding-bottom:70px;padding-left:102px}.grid-col-top-10-1 .grid-item{height:auto}.grid-col-top-10-1 .grid-items{justify-content:flex-start}@media (max-width: 1100px){.grid-col-top-10-1{padding-left:30px}}@media (max-width: 980px){.grid-col-top-10-1{width:100%;padding-top:10px;padding-bottom:10px}}.grid-item-top-10-1-1{width:100%}.grid-col-top-10-2{width:70%;padding-right:0px}.grid-col-top-10-2 .grid-item{height:100%}@media (max-width: 980px){.grid-col-top-10-2{width:100%}}.grid-item-top-10-2-1{width:100%}.grid-row-top-11::before{display:block;left:0;width:100vw}.grid-row-top-11{padding-top:83px;padding-right:0px;padding-left:0px;margin-bottom:-30px}.grid-row-top-11 .wave-top{display:block}.grid-row-top-11 .wave-bottom{display:block}@media (max-width: 470px){.grid-row-top-11{padding-top:20px;padding-bottom:20px}}.grid-col-top-11-1{width:100%;padding-bottom:44px}.grid-col-top-11-1 .grid-item{height:auto}.grid-col-top-11-1 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-11-1{padding-right:10px;padding-left:10px}}.grid-item-top-11-1-1{width:100%}.grid-col-top-11-2{width:33.33333333333333%;padding-right:67px}.grid-col-top-11-2 .grid-item{height:auto}.grid-col-top-11-2 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-11-2{width:100%;padding-right:10px;padding-left:10px}}.grid-item-top-11-2-1{width:100%}.grid-col-top-11-3{width:33.33333333333333%;padding-right:67px}.grid-col-top-11-3 .grid-item{height:auto}.grid-col-top-11-3 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-11-3{width:100%;padding-top:15px;padding-right:10px;padding-left:10px}}.grid-item-top-11-3-1{width:100%}.grid-col-top-11-4{width:33.33333333333333%}.grid-col-top-11-4 .grid-item{height:auto}.grid-col-top-11-4 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-11-4{width:100%;padding-top:15px;padding-right:10px;padding-left:10px}}.grid-item-top-11-4-1{width:100%}.grid-row-top-12{background-image:url(\'https://osushuvachi.webfun.com.ua/image/cache/catalog/Layer-3-copy-2-2-(1)-1920x556.png\');background-position:center center;background-repeat:no-repeat;background-origin:content-box;margin-top:126px;margin-bottom:131px}.grid-row-top-12::before{display:block;left:0;width:100vw}.grid-row-top-12>.grid-cols{max-width:1920px}.grid-row-top-12 .wave-top{display:block}.grid-row-top-12 .wave-bottom{display:block}@media (max-width: 470px){.grid-row-top-12{padding-bottom:30px}}.grid-col-top-12-1{width:100%}.grid-col-top-12-1 .grid-item{height:100%}.grid-col-top-12-1 .grid-items{justify-content:flex-start}@media (max-width: 980px){.grid-col-top-12-1{padding-right:15px;padding-left:15px}}.grid-item-top-12-1-1{width:100%}.grid-item-top-12-1-2{width:100%}.grid-row-bottom-2::before{display:block;left:0;width:100vw}.grid-row-bottom-2{margin-top:-78px}.grid-row-bottom-2 .wave-top{display:block}.grid-row-bottom-2 .wave-bottom{display:block}.grid-col-bottom-2-1{width:100%;padding-bottom:83px}.grid-col-bottom-2-1 .grid-item{height:auto}.grid-col-bottom-2-1 .grid-items{justify-content:flex-start}.grid-item-bottom-2-1-1{width:100%}.grid-row-bottom-3::before{display:block;left:0;width:100vw}.grid-row-bottom-3{margin-top:-7px}.grid-row-bottom-3 .wave-top{display:block}.grid-row-bottom-3 .wave-bottom{display:block}@media (max-width: 470px){.grid-row-bottom-3{margin-top:-17px}}.grid-col-bottom-3-1{width:50%}.grid-col-bottom-3-1 .grid-item{height:auto}.grid-col-bottom-3-1 .grid-items{justify-content:flex-start}@media (max-width: 470px){.grid-col-bottom-3-1{padding-right:15px;padding-left:15px}}.grid-item-bottom-3-1-1{width:100%}.grid-col-bottom-3-2{width:50%}.grid-col-bottom-3-2 .grid-item{height:auto}.grid-col-bottom-3-2 .grid-items{justify-content:center}@media (max-width: 470px){.grid-col-bottom-3-2{padding-right:15px;padding-left:15px}}.grid-item-bottom-3-2-1{width:100%}.grid-col-bottom-3-3{width:100%;padding-bottom:83px}.grid-col-bottom-3-3 .grid-item{height:auto}.grid-col-bottom-3-3 .grid-items{justify-content:flex-start}@media (max-width: 470px){.grid-col-bottom-3-3{padding-bottom:30px}}.grid-item-bottom-3-3-1{width:100%}.grid-row-bottom-4::before{display:block;left:0;width:100vw}.grid-row-bottom-4{padding-bottom:114px}.grid-row-bottom-4 .wave-top{display:block}.grid-row-bottom-4 .wave-bottom{display:block}@media (max-width: 980px){.grid-row-bottom-4{padding-bottom:60px}}.grid-col-bottom-4-1{width:100%}.grid-col-bottom-4-1 .grid-item{height:auto}.grid-col-bottom-4-1 .grid-items{justify-content:flex-start}.grid-item-bottom-4-1-1{width:100%}.grid-col-bottom-4-2{width:100%}.grid-col-bottom-4-2 .grid-item{height:auto}.grid-col-bottom-4-2 .grid-items{justify-content:flex-start}.grid-item-bottom-4-2-1{width:100%}',
+);

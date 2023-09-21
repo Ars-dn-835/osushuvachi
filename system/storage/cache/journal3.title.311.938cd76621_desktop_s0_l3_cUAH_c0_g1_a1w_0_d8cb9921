@@ -1,0 +1,32 @@
+<?php $val = array (
+  'css' => '.module-title-311 .title-wrapper
+h3{font-family:Proxima Nova Bl;font-size:40px;font-weight:700}.module-title-311 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-311 .title-wrapper
+h3{font-size:20px;font-weight:400}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Промислові осушувачі',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-650ad199e6acc',
+    'module_id' => 311,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-311',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

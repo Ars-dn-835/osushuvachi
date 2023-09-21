@@ -1,0 +1,32 @@
+<?php $val = array (
+  'css' => '.module-title-334 .title-wrapper
+h3{font-family:Proxima Nova Rg;font-size:15px;color:rgba(255, 255, 255, 0.5)}.module-title-334 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 980px){.module-title-334 .title-wrapper
+h3{font-family:Proxima Nova Rg;font-size:13px;color:rgba(52, 52, 52, 1);font-weight:400}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Інтернет-магазин «Осушувачів», 2023',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-650ace185a428',
+    'module_id' => 334,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-334',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

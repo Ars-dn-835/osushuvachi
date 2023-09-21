@@ -1,0 +1,100 @@
+<?php $val = array (
+  'css' => 'div.main-menu.main-menu-3 > .j-menu .menu-item.main-menu-item-1>a::before{content:\'\\f009\' !important;font-family:icomoon !important;font-size:16px;color:rgba(255, 255, 255, 1);margin-right:12px}div.main-menu.main-menu-3 > .j-menu li.main-menu-item-1>a{font-family:Proxima Nova SmBl !important;font-size:16px !important;color:rgba(255, 255, 255, 1) !important;font-weight:400 !important;font-style:normal !important;text-transform:uppercase !important;background:rgba(53,145,208,1)}div.main-menu.main-menu-3>.j-menu>.main-menu-item-1>a{border-radius:5px;padding-top:24px !important;padding-right:42px !important;padding-bottom:24px !important;padding-left:41px !important}.route-common-home body:not(.is-sticky) .main-menu-3 .main-menu-item-1.flyout>.j-dropdown{display:block !important;transform:none;opacity:1}.desktop-main-menu-wrapper .menu-fullwidth>.j-dropdown{width:100vw;left:50%;margin-left:-50vw}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-1 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-1>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-1:not(.mega-fullwidth)>.dropdown-menu::before{display:block;border-bottom-color:rgba(53, 145, 208, 1)}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-1.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}.main-menu-3 > .j-menu li.main-menu-item-1 .mega-menu-content{background:rgba(255, 255, 255, 1)}.desktop .main-menu-3 > .j-menu li.main-menu-item-1 .mega-menu-content{border-width:0;border-top-width:1px;border-style:solid;border-color:rgba(226, 226, 226, 1)}.main-menu-3 > .j-menu li.main-menu-item-1 .j-dropdown>.mega-menu-content{box-shadow:30px 40px 90px -10px rgba(0, 0, 0, 0.2)}.main-menu-3 .main-menu-item-1.mega-menu .grid-row-1{background:rgba(255, 255, 255, 1);padding:10px}.main-menu-3 .main-menu-item-1.mega-menu .grid-row-1::before{display:block;left:0;width:100vw}.main-menu-3 .main-menu-item-1.mega-menu .grid-row-1 .grid-col-1{width:100%;padding:20px;padding-left:0px}@media (max-width: 1024px){.main-menu-3 .main-menu-item-1.mega-menu .grid-row-1 .grid-col-1{width:100%;padding:0px;padding-bottom:20px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'status' => true,
+    'id' => 'main-menu',
+    'module_id' => 3,
+    'classes' => 
+    array (
+      0 => 'main-menu',
+      1 => 'main-menu-3',
+      'accordion-menu' => false,
+    ),
+    'display' => 'dropdown',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Каталог',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'megamenu',
+        'mobileOpen' => true,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-1',
+          3 => 'dropdown',
+          4 => 'mega-menu',
+          'icon-only' => false,
+          'menu-fullwidth' => true,
+          'mega-fullwidth' => true,
+          'mega-custom' => false,
+          'drop-menu' => false,
+        ),
+        'grid_classes' => 
+        array (
+          0 => 'grid-rows',
+        ),
+        'rows' => 
+        array (
+          1 => 
+          array (
+            'classes' => 
+            array (
+              0 => 'grid-row',
+              1 => 'grid-row-1',
+            ),
+            'columns' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-col',
+                  1 => 'grid-col-1',
+                ),
+                'items' => 
+                array (
+                  1 => 
+                  array (
+                    'classes' => 
+                    array (
+                      0 => 'grid-item',
+                      1 => 'grid-item-1',
+                    ),
+                    'item' => 
+                    array (
+                      'id' => '119',
+                      'name' => 'Catalog Categories',
+                      'type' => 'catalog',
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        'isOpen' => false,
+      ),
+    ),
+  ),
+);

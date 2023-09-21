@@ -1,0 +1,43 @@
+<?php $val = array (
+  'css' => '.module-button-371
+.btn{transform:scale(calc(100 / 100));transform-origin:center;width:100%;background:rgba(53, 145, 208, 1);padding-top:19px;padding-bottom:19px;border-radius:5px !important}.module-button-371{display:flex;justify-content:center}.module-button-371 .btn, .module-button-371 .btn:visited{font-family:Proxima Nova SmBl;font-size:18px;font-weight:400;font-style:normal;text-transform:none}.module-button-371 .btn:hover{font-family:Proxima Nova SmBl !important;color:rgba(255, 255, 255, 1) !important;background:rgba(53, 145, 208, 1) !important}.desktop .module-button-371 .btn:hover{box-shadow:0 10px 40px rgba(0, 0, 0, 0.15)}.module-button-371 .btn.btn.disabled::after{font-size:20px}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Всі осушувачі для басейнів',
+    'link' => 
+    array (
+      'type' => 'category',
+      'id' => '223',
+      'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-povitrya-dlya-basejnu',
+      'name' => 'Осушувачі повітря для басейну',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'id' => 'button-650ace18229b1',
+    'module_id' => 371,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-371',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,275 @@
+<?php $val = array (
+  'css' => '.module-catalog-119 .module-item.swiper-slide{margin-right:25px;width:calc((100% - 2 * 25px) / 3 - 0.01px)}.module-catalog-119 .module-item:not(.swiper-slide){padding:12.5px;width:calc(100% / 3 - 0.01px)}.one-column #content .module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 3 * 0px) / 4 - 0.01px)}.one-column #content .module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 4 - 0.01px)}.two-column #content .module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 2 * 0px) / 3 - 0.01px)}.two-column #content .module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 3 - 0.01px)}.side-column .module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-119 .catalog-title{margin-bottom:7px;display:flex;font-family:Proxima Nova Bl;font-size:18px;color:rgba(52, 52, 52, 1);font-weight:700;text-transform:uppercase;width:auto;margin-left:auto;margin-right:auto;justify-content:center;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-119 .catalog-title:hover{color:rgba(53, 145, 208, 1)}.module-catalog-119
+.subitems{align-items:flex-start}.module-catalog-119
+.subitems{padding-left:20px}.module-catalog-119 .subitem > a
+span{font-family:Proxima Nova Rg;font-size:18px;color:rgba(52, 52, 52, 1)}.module-catalog-119 .subitem > a:hover
+span{color:rgba(8, 39, 77, 1);text-decoration:underline}.module-catalog-119 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-119 .subitem.view-more a:hover
+span{color:rgba(53, 145, 208, 1)}.module-catalog-119 .subitem>a{white-space:normal;overflow:visible;text-overflow:initial;padding-bottom:7px}.module-catalog-119 .catalog-image{margin-right:10px;margin-bottom:10px}.module-catalog-119 .item-assets{flex-direction:row}.module-catalog-119 .item-assets>a{max-width:40%;order:0}.module-catalog-119 .item-assets
+.subitems{width:60%}.module-catalog-119 .item-assets .catalog-image{display:block}@media (max-width: 1024px){.module-catalog-119 .module-item.swiper-slide{margin-right:25px;width:calc((100% - 1 * 25px) / 2 - 0.01px)}.module-catalog-119 .module-item:not(.swiper-slide){padding:12.5px;width:calc(100% / 2 - 0.01px)}}@media (max-width: 760px){.module-catalog-119 .module-item.swiper-slide{margin-right:25px;width:calc((100% - 0 * 25px) / 1 - 0.01px)}.module-catalog-119 .module-item:not(.swiper-slide){padding:12.5px;width:calc(100% / 1 - 0.01px)}.module-catalog-119 .item-assets{flex-direction:column}.module-catalog-119 .item-assets>a{max-width:100%;order:0}.module-catalog-119 .item-assets
+.subitems{width:100%}.module-catalog-119 .item-assets .catalog-image{display:block}.module-catalog-119 div.item-assets{flex-direction:column}.module-catalog-119 div.item-assets>a{max-width:100%;order:0}.module-catalog-119 div.item-assets
+.subitems{width:100%}.module-catalog-119 div.item-assets .catalog-image{display:block}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'images' => true,
+    'imageDimensions' => 
+    array (
+      'width' => 150,
+      'height' => 150,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 25,
+        ),
+        1024 => 
+        array (
+          'spacing' => 25,
+          'items' => 2,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 25,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'carouselPhone' => false,
+    'viewMoreText' => 'Дивитись більше',
+    'status' => true,
+    'id' => 'catalog-650ad17fc4717',
+    'module_id' => 119,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-119',
+      'carousel-mode' => false,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '4',
+        'id' => '119-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Для великих приміщень',
+            'href' => 'https://osushuvachi.webfun.com.ua/pobutovi-osushuvachi-povitrya-dlya-kvartyr/dlya-velykyh-prymishchen',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          1 => 
+          array (
+            'name' => 'Для маленьких приміщень',
+            'href' => 'https://osushuvachi.webfun.com.ua/pobutovi-osushuvachi-povitrya-dlya-kvartyr/dlya-malenkyh-prymishchen',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          2 => 
+          array (
+            'name' => 'Осушувачі з Wi-Fi керуванням',
+            'href' => 'https://osushuvachi.webfun.com.ua/pobutovi-osushuvachi-povitrya-dlya-kvartyr/osushuvachi-z-wi-fi-keruvannyam',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          3 => 
+          array (
+            'name' => 'Осушувачі з очисткою повітря, іонізацією',
+            'href' => 'https://osushuvachi.webfun.com.ua/pobutovi-osushuvachi-povitrya-dlya-kvartyr/osushuvachi-z-ochystkoyu-povitrya-ionizaciyeyu',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+        ),
+        'image' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/dfsd-150x150.png',
+        'name' => 'Побутові осушувачі повітря для квартир',
+        'href' => 'https://osushuvachi.webfun.com.ua/pobutovi-osushuvachi-povitrya-dlya-kvartyr',
+        'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/dfsd-300x300.png',
+        'total' => '4',
+      ),
+      2 => 
+      array (
+        'limit' => '4',
+        'id' => '119-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'З підмісом свіжого повітря',
+            'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-povitrya-dlya-basejnu/z-pidmisom-svizhogo-povitrya',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          1 => 
+          array (
+            'name' => 'Канальні осушувачі',
+            'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-povitrya-dlya-basejnu/kanalni-osushuvachi',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          2 => 
+          array (
+            'name' => 'Підлогові осушувачі',
+            'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-povitrya-dlya-basejnu/pidlogovi-osushuvachi',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+        ),
+        'image' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/swim-150x150.png',
+        'name' => 'Осушувачі повітря для басейну',
+        'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-povitrya-dlya-basejnu',
+        'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/swim-300x300.png',
+        'total' => '3',
+      ),
+      3 => 
+      array (
+        'limit' => '4',
+        'id' => '119-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Для гаражу',
+            'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-dlya-gospodarskyh-budivel/dlya-garazhu',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          1 => 
+          array (
+            'name' => 'Для прогребу',
+            'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-dlya-gospodarskyh-budivel/dlya-progrebu',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          2 => 
+          array (
+            'name' => 'Для складу',
+            'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-dlya-gospodarskyh-budivel/dlya-skladu',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+        ),
+        'image' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/hosp-150x150.png',
+        'name' => 'Осушувачі для господарських будівель',
+        'href' => 'https://osushuvachi.webfun.com.ua/osushuvachi-dlya-gospodarskyh-budivel',
+        'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/hosp-300x300.png',
+        'total' => '3',
+      ),
+      4 => 
+      array (
+        'limit' => '4',
+        'id' => '119-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Адсорбційні осушувачі',
+            'href' => 'https://osushuvachi.webfun.com.ua/promyshlennye-osushiteli-vozduha/adsorbcijni-osushuvachi',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          1 => 
+          array (
+            'name' => 'Для сушіння м\'яса, снеків і продуктів',
+            'href' => 'https://osushuvachi.webfun.com.ua/promyshlennye-osushiteli-vozduha/dlya-sushinnya-m-yasa-snekiv-i-produktiv',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          2 => 
+          array (
+            'name' => 'Мобільні для ремонту та будівництва',
+            'href' => 'https://osushuvachi.webfun.com.ua/promyshlennye-osushiteli-vozduha/mobilni-dlya-remontu-ta-budivnyctva',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+          3 => 
+          array (
+            'name' => 'Осушення повітря в промисловості',
+            'href' => 'https://osushuvachi.webfun.com.ua/promyshlennye-osushiteli-vozduha/osushennya-povitrya-v-promyslovosti',
+            'image' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-150x150.png',
+            'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/placeholder-300x300.png',
+          ),
+        ),
+        'image' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/prom-150x150.png',
+        'name' => 'Промислові осушувачі повітря',
+        'href' => 'https://osushuvachi.webfun.com.ua/promyshlennye-osushiteli-vozduha',
+        'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/categories/prom-300x300.png',
+        'total' => '4',
+      ),
+    ),
+  ),
+);

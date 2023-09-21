@@ -1,0 +1,58 @@
+<?php $val = array (
+  'css' => '.top-menu-240 .j-menu li.top-menu-item-5>a::before{content:\'\\e9f6\' !important;font-family:icomoon !important;font-size:19px;margin-left:38px}.desktop .top-menu-240 .j-menu li.top-menu-item-5:hover>a::before{color:rgba(53, 145, 208, 1)}.desktop .top-menu-240 .j-menu li.top-menu-item-5:hover>a:first-child{color:rgba(53,145,208,1)}.top-menu-240>ul>.top-menu-item-5>a{text-align:center}.top-menu-240>ul>.top-menu-item-5>a>.links-text{display:none}.top-menu-240 > ul > .top-menu-item-5 > a .count-badge{position:absolute;top:auto;right:auto}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'scheduledStatus' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'status' => true,
+    'id' => 'top-menu-650acdb8c34c0',
+    'module_id' => 240,
+    'classes' => 
+    array (
+      0 => 'top-menu',
+      1 => 'top-menu-240',
+    ),
+    'items' => 
+    array (
+      5 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://osushuvachi.webfun.com.ua/index.php?route=account/wishlist',
+          'name' => '',
+          'total' => '{{ $wishlist }}',
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'wishlist-badge',
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-5',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          'icon-only' => true,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

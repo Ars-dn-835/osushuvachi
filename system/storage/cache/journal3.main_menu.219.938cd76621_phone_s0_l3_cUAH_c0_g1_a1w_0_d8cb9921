@@ -1,0 +1,363 @@
+<?php $val = array (
+  'css' => 'div.main-menu.main-menu-219 > .j-menu li.main-menu-item-1>a{font-family:Proxima Nova Bl !important;font-size:18px !important;color:rgba(52, 52, 52, 1) !important;text-align:center !important;text-transform:none !important;background:rgba(0,0,0,0)}div.main-menu.main-menu-219>.j-menu>.main-menu-item-1>a{padding-top:111px !important;padding-bottom:40px !important}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-1 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-1>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-1:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-1.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}.main-menu-219 > .j-menu li.main-menu-item-1>a>.menu-label{font-family:\'Hind Madurai\';font-weight:400;font-size:9px;color:rgba(255, 255, 255, 1);text-transform:uppercase;background:rgba(53, 145, 208, 1);border-radius:2px;padding:2px;padding-right:5px;padding-bottom:0px;padding-left:5px}div.main-menu.main-menu-219 > .j-menu li.main-menu-item-2>a{font-family:Proxima Nova Bl !important;font-size:18px !important;color:rgba(52, 52, 52, 1) !important;font-weight:700 !important;text-align:center !important;text-transform:none !important;background:rgba(0,0,0,0)}div.main-menu.main-menu-219>.j-menu>.main-menu-item-2>a{padding-bottom:40px !important}.route-common-home body:not(.is-sticky) .main-menu-219 .main-menu-item-2.flyout>.j-dropdown{display:block !important;transform:none;opacity:1}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-2 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-2>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-2:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-2.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}.main-menu-219 .main-menu-item-2.mega-menu .grid-row-1::before{display:block;left:0;width:100vw}.main-menu-219 .main-menu-item-2.mega-menu .grid-row-1 .grid-col-1{width:100%}.main-menu-219 .main-menu-item-2.mega-menu .grid-row-1 .grid-col-1 .grid-item{height:auto}.main-menu-219 .main-menu-item-2.mega-menu .grid-row-1 .grid-col-1 .grid-items{justify-content:flex-start}div.main-menu.main-menu-219 > .j-menu li.main-menu-item-3>a{font-family:Proxima Nova Bl !important;font-size:18px !important;font-weight:700 !important;text-transform:none !important;background:rgba(0,0,0,0)}div.main-menu.main-menu-219>.j-menu>.main-menu-item-3>a{padding-bottom:40px !important}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-3 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-3>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-3:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-3.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}div.main-menu.main-menu-219 > .j-menu li.main-menu-item-4>a{font-family:Proxima Nova Bl !important;font-weight:700 !important;text-transform:none !important;background:rgba(0,0,0,0)}div.main-menu.main-menu-219>.j-menu>.main-menu-item-4>a{padding-bottom:40px !important}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-4 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-4>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-4:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-4.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}div.main-menu.main-menu-219 > .j-menu li.main-menu-item-5>a{font-family:Proxima Nova Bl !important;font-size:18px !important;color:rgba(52, 52, 52, 1) !important;font-weight:400 !important;font-style:normal !important;text-align:center !important;text-transform:none !important;background:rgba(0,0,0,0)}div.main-menu.main-menu-219>.j-menu>.main-menu-item-5>a{padding-top:0px !important;padding-bottom:40px !important}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-5 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-5>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-5:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-5.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}div.main-menu.main-menu-219 > .j-menu li.main-menu-item-6>a{font-family:Proxima Nova Bl !important;font-size:18px !important;color:rgba(52, 52, 52, 1) !important;font-weight:400 !important;font-style:normal !important;text-align:center !important;text-transform:none !important;background:rgba(0,0,0,0)}div.main-menu.main-menu-219>.j-menu>.main-menu-item-6>a{padding-top:0px !important;padding-bottom:40px !important}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-6 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-6>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-6:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-6.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}div.main-menu.main-menu-219 > .j-menu li.main-menu-item-7>a{font-family:Proxima Nova Bl !important;font-size:18px !important;color:rgba(52, 52, 52, 1) !important;font-weight:400 !important;font-style:normal !important;text-align:center !important;text-transform:none !important;background:rgba(0,0,0,0)}div.main-menu.main-menu-219>.j-menu>.main-menu-item-7>a{padding-top:0px !important;padding-bottom:106px !important}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-7 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 .mega-custom.main-menu-item-7>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-7:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-219 > .j-menu li.main-menu-item-7.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Hind Madurai' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'status' => true,
+    'id' => 'main-menu-650ace184d89c',
+    'module_id' => 219,
+    'classes' => 
+    array (
+      0 => 'main-menu',
+      1 => 'main-menu-219',
+      'accordion-menu' => true,
+    ),
+    'display' => 'accordion',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Про нас',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '4',
+          'href' => 'https://osushuvachi.webfun.com.ua/pro_nas',
+          'name' => 'Про нас',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => '',
+        'mobileOpen' => true,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-1',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => false,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+      2 => 
+      array (
+        'title' => 'Каталог',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'megamenu',
+        'mobileOpen' => true,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-2',
+          3 => 'dropdown',
+          4 => 'mega-menu',
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => true,
+          'mega-custom' => false,
+          'drop-menu' => false,
+        ),
+        'grid_classes' => 
+        array (
+          0 => 'grid-rows',
+        ),
+        'rows' => 
+        array (
+          1 => 
+          array (
+            'classes' => 
+            array (
+              0 => 'grid-row',
+              1 => 'grid-row-1',
+            ),
+            'columns' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-col',
+                  1 => 'grid-col-1',
+                ),
+                'items' => 
+                array (
+                  1 => 
+                  array (
+                    'classes' => 
+                    array (
+                      0 => 'grid-item',
+                      1 => 'grid-item-1',
+                    ),
+                    'item' => 
+                    array (
+                      'id' => '119',
+                      'name' => 'Catalog Categories',
+                      'type' => 'catalog',
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        'isOpen' => false,
+      ),
+      3 => 
+      array (
+        'title' => 'Де купити',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.google.com/maps/place/Osushiteli(+%D0%9E%D1%81%D1%83%D1%88%D1%83%D0%B2%D0%B0%D1%87%D1%96+%D0%BF%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%8F+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2)/@49.8571604,-15.0036647,4z/data=!4m6!3m5!1s0x473add54e938d9d9:0xd0ae1f49661b51b5!8m2!3d49.8571604!4d24.0197728!16s%2Fg%2F11n22x56kw?hl=ru&entry=ttu',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'multilevel',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-3',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => true,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+      4 => 
+      array (
+        'title' => 'Завантажити матеріали',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'multilevel',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-4',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => true,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+      5 => 
+      array (
+        'title' => 'Статті',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'blog_home',
+          'id' => '',
+          'href' => 'https://osushuvachi.webfun.com.ua/blog',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => '',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-5',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => false,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+      6 => 
+      array (
+        'title' => 'Партнерство',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '18',
+          'href' => 'https://osushuvachi.webfun.com.ua/partners',
+          'name' => 'Партнерам',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'multilevel',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-6',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => true,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+      7 => 
+      array (
+        'title' => 'Контакти',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://osushuvachi.webfun.com.ua/index.php?route=information/contact',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'multilevel',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-7',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => true,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+    ),
+  ),
+);

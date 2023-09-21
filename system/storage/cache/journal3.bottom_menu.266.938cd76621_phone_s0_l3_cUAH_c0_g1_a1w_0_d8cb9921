@@ -1,0 +1,172 @@
+<?php $val = array (
+  'css' => '.bottom-menu-266>ul>li>a{height:65px;min-width:70px;font-size:10px;color:rgba(139, 145, 152, 1)}.has-bottom-menu .site-wrapper{padding-bottom:65px}.has-bottom-menu .scroll-top{bottom:calc(65px+10px)}.bottom-menu>ul>li>a{flex-direction:column}.bottom-menu > ul > li .links-text{top:-2px;margin:0}.bottom-menu>ul>li>a::before{width:100%}.bottom-menu-266 li>a::before{font-size:20px}.bottom-menu-266>ul>li+li{border-style:none;border-color:rgba(53,145,208,1)}.bottom-menu-266{border-style:solid;border-color:rgba(255, 255, 255, 1);background:rgba(53, 145, 208, 1);box-shadow:0 -10px 30px -5px rgba(0,0,0,0.15)}.bottom-menu-266>ul>li>a::before{color:rgba(255, 255, 255, 1)}.j-menu li .count-badge{font-size:30px}.bottom-menu-266 > ul > li > a .count-badge{margin-top:-7px;display:inline-flex}.bottom-menu-266 .bottom-menu-item-1>a::before{content:\'\\e9fd\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.bottom-menu-266 .bottom-menu-item-2>a::before{content:\'\\f009\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.bottom-menu-266 .bottom-menu-item-3>a::before{content:\'\\f004\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.bottom-menu-266 .bottom-menu-item-4>a::before{content:\'\\e9f5\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.bottom-menu-266 .bottom-menu-item-5>a::before{content:\'\\e0cd\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'status' => true,
+    'id' => 'bottom-menu-650ace1842cd2',
+    'module_id' => 266,
+    'classes' => 
+    array (
+      0 => 'bottom-menu',
+      1 => 'bottom-menu-266',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://osushuvachi.webfun.com.ua/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'bottom-menu-item',
+          2 => 'bottom-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://osushuvachi.webfun.com.ua/index.php?route=product/catalog',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'bottom-menu-item',
+          2 => 'bottom-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '22',
+          'href' => 'https://osushuvachi.webfun.com.ua/index.php?route=account/wishlist',
+          'name' => '',
+          'total' => '{{ $wishlist }}',
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'wishlist-badge',
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'bottom-menu-item',
+          2 => 'bottom-menu-item-3',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '257',
+          'href' => 'https://osushuvachi.webfun.com.ua/index.php?route=checkout/cart',
+          'name' => '',
+          'total' => '{{ $cart }}',
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'cart-badge',
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'bottom-menu-item',
+          2 => 'bottom-menu-item-4',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '22',
+          'href' => 'tel:+38 093 843-22-14',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'bottom-menu-item',
+          2 => 'bottom-menu-item-5',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

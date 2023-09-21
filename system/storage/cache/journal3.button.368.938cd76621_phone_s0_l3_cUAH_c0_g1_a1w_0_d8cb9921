@@ -1,0 +1,43 @@
+<?php $val = array (
+  'css' => '.module-button-368
+.btn{transform:scale(calc(100 / 100));transform-origin:center;width:100%;background:rgba(53, 145, 208, 1);padding-top:19px;padding-bottom:19px;border-radius:5px !important;padding-top:24px;padding-right:42px;padding-bottom:24px;padding-left:42px;border-radius:5px !important}.module-button-368{display:flex;justify-content:center}.module-button-368 .btn, .module-button-368 .btn:visited{font-family:Proxima Nova SmBl;font-size:16px;color:rgba(255, 255, 255, 1);font-weight:400;font-style:normal;text-transform:uppercase}.module-button-368 .btn:hover{font-family:Proxima Nova SmBl !important;color:rgba(255, 255, 255, 1) !important;background:rgba(53, 145, 208, 1) !important}.desktop .module-button-368 .btn:hover{box-shadow:0 10px 40px rgba(0, 0, 0, 0.15)}.module-button-368 .btn.btn.disabled::after{font-size:20px}.module-button-368 .btn::before{content:\'\\f009\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1);left:-10px}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Каталог',
+    'link' => 
+    array (
+      'type' => 'page',
+      'id' => '',
+      'href' => 'https://osushuvachi.webfun.com.ua/index.php?route=product/catalog',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'id' => 'button-650ace180f09e',
+    'module_id' => 368,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-368',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,28 @@
+{% if languages|length > 1 %}
+<style>
+.langmark {
+margin-top: 6px;
+color: #888;
+}
+.langmark span a {
+color: #888;
+text-decoration: none;
+}
+.langmark span a:hover {
+color: #333;
+}
+
+.langmark span a.langmarkactive {
+color: #000;
+font-weight: bold;
+}
+</style>
+<div class="nav pull-left langmark">
+<ul class="list-inline">
+	{% for language in languages %}
+	<span><a href="{{ language.url }}" {% if (language['current']) %} class="langmarkactive" {% endif %} onclick="window.location = '{{ language.url }}'" class="acc__btn">{{ language.name }}</a></span>
+	{% if not loop.last %}{{ "&nbsp;|&nbsp;" }}{% endif %}
+	{% endfor %}
+</ul>
+</div>
+{% endif %}

@@ -1,0 +1,33 @@
+<?php $val = array (
+  'css' => '.module-title-378 .title-wrapper
+h3{font-family:Proxima Nova Bl;font-size:14px;color:rgba(52, 52, 52, 1)}.module-title-378 .title-wrapper
+.subtitle{font-family:Proxima Nova Rg;font-size:14px;color:rgba(52,52,52,1)}.module-title-378{margin-bottom:20px;margin-left:10px}.module-title-378 .title-wrapper::before{opacity:.05;display:block}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Центральний офіс',
+    'subtitle' => 'проспект В\'ячеслава Чорновола, 59,<br>
+ Львів, Львівська область, 79000',
+    'status' => true,
+    'id' => 'title-650ace1857839',
+    'module_id' => 378,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-378',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

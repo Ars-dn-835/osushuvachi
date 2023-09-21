@@ -1,0 +1,31 @@
+<?php $val = array (
+  'css' => '.module-title-375 .title-wrapper
+h3{font-family:Proxima Nova Bl;font-size:14px;color:rgba(52,52,52,1);font-weight:700}.module-title-375{padding-left:10px;margin-bottom:12px}.module-title-375 .title-wrapper::before{opacity:.05;display:block}.module-title-375 .title-divider{display:none}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Підтримка у месенджері',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-650acdb8ccb3b',
+    'module_id' => 375,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-375',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

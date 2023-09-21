@@ -1,0 +1,44 @@
+<?php $val = array (
+  'css' => '.module-button-322
+.btn{transform:scale(calc(100 / 100));transform-origin:center;width:auto;background:rgba(255, 255, 255, 1);border-width:2px;border-style:solid;border-color:rgba(255, 255, 255, 1);padding-top:16px;padding-right:25px;padding-bottom:15px;padding-left:23px;box-shadow:none;border-radius:5px !important;margin-top:39px;margin-right:1260px;margin-bottom:150px}.module-button-322{display:flex;justify-content:center}.module-button-322 .btn, .module-button-322 .btn:visited{font-family:Proxima Nova SmBl;font-size:16px;color:rgba(0, 0, 0, 1);text-align:center;text-transform:none;letter-spacing:0}.module-button-322 .btn:hover{color:rgba(255, 255, 255, 1) !important;background:rgba(53, 145, 208, 1) !important}.module-button-322 .btn:active, .module-button-322 .btn:hover:active, .module-button-322 .btn:focus:active{color:rgba(53, 145, 208, 1) !important;background:none !important;box-shadow:none}.module-button-322 .btn:focus{color:rgba(53, 145, 208, 1) !important;background:none;box-shadow:none}.module-button-322 .btn:hover, .module-button-322 .btn:active:hover{border-color:rgba(53, 145, 208, 1)}.desktop .module-button-322 .btn:hover{box-shadow:none}.module-button-322 .btn.btn.disabled::after{font-size:20px}@media (max-width: 980px){.module-button-322
+.btn{margin-right:0px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Пункти продажу',
+    'link' => 
+    array (
+      'type' => 'custom',
+      'id' => '',
+      'href' => 'https://goo.gl/maps/kYCcb735ty631tX1A',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'id' => 'button-650ad199f2e36',
+    'module_id' => 322,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-322',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

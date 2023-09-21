@@ -1,0 +1,136 @@
+<?php $val = array (
+  'css' => '.module-info_blocks-215 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-info_blocks-215 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-info_blocks-215 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-info_blocks-215 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-info_blocks-215 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-info_blocks-215 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-info_blocks-215 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-info_blocks-215 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-info_blocks-215 .module-item .info-block{justify-content:flex-start}.module-info_blocks-215 .info-block .info-block-title{font-size:14px;display:block}.module-info_blocks-215 .info-block .info-block-text{display:block}.module-info_blocks-215 .info-block{padding:5px;padding-bottom:10px;padding-left:0px;display:flex;flex-direction:row;justify-content:flex-start;text-align:left}.module-info_blocks-215 .info-block-content{display:flex}.module-info_blocks-215 .info-block::before{align-self:center;width:30px;font-size:20px;color:rgba(105, 105, 115, 1)}.module-info_blocks-215 .info-block-img{align-self:center}.module-info_blocks-215 .info-block::before, .module-info_blocks-215 .info-block-img{margin-right:5px}.module-info_blocks-215 .info-block .count-badge{display:none}@media (max-width: 980px){.module-info_blocks-215 .info-block .info-block-title{font-family:Proxima Nova Bl;font-size:14px;color:rgba(52, 52, 52, 1)}.module-info_blocks-215 .info-block .info-block-text{font-family:Proxima Nova Rg;font-size:14px;color:rgba(52, 52, 52, 1)}.module-info_blocks-215 .module-item .info-block .info-block-title{font-family:Proxima Nova Bl;font-size:14px;color:rgba(52, 52, 52, 1)}.module-info_blocks-215 .module-item .info-block .info-block-text{font-family:Proxima Nova Rg;font-size:14px;color:rgba(52, 52, 52, 1)}}.module-info_blocks-215 .module-item-1 .info-block-img{left:5px;top:-5px}.module-info_blocks-215 .module-item-1 .info-block::before{content:\'\\eab9\' !important;font-family:icomoon !important}.module-info_blocks-215 .module-item-2 .info-block .info-block-title{font-family:Proxima Nova SmBl;font-size:15px;color:rgba(247, 247, 251, 1);font-weight:700;display:block}.module-info_blocks-215 .module-item-2 .info-block .info-block-text{font-family:Proxima Nova Rg;font-size:15px;color:rgba(255, 255, 255, 1);display:block}.module-info_blocks-215 .module-item-2 .info-block{padding-top:60px;display:flex;flex-direction:row;justify-content:flex-start;text-align:left}.module-info_blocks-215 .module-item-2 .info-block-content{display:flex;justify-content:flex-start}.module-info_blocks-215 .module-item-2 .info-block::before{align-self:flex-start}.module-info_blocks-215 .module-item-2 .info-block-img{align-self:flex-start}.module-info_blocks-215 .module-item-2 .info-block .count-badge{display:none}@media (max-width: 980px){.module-info_blocks-215 .module-item-2 .info-block .info-block-text{font-family:Proxima Nova Rg;font-size:14px;color:rgba(52, 52, 52, 1);font-weight:400}}@media (max-width: 470px){.module-info_blocks-215 .module-item-2 .info-block{padding-top:20px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => 230,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'info_blocks-650ad17fccee0',
+    'module_id' => 215,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-info_blocks',
+      2 => 'module-info_blocks-215',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'content' => '',
+        'button' => false,
+        'id' => '215-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => 'info-blocks',
+          3 => 'info-blocks-image',
+        ),
+        'image' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/logoukr-230x50fill.png',
+        'image2x' => 'https://osushuvachi.webfun.com.ua/image/cache/catalog/logoukr-460x100fill.png',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Центральний офіс',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => '<div class="footer_adres_cust">
+  проспект В\'ячеслава Чорновола, 59, Львів, Львівська область, 79000
+</div>',
+        'button' => false,
+        'id' => '215-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

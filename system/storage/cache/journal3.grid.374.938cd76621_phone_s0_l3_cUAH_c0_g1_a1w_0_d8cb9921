@@ -1,0 +1,214 @@
+<?php $val = array (
+  'css' => '.module-grid-374 .grid-row-1{padding:0px}.module-grid-374 .grid-row-1::before{display:block;left:0;width:100vw}.module-grid-374 .grid-row-1 .grid-col-1{width:100%}.module-grid-374 .grid-row-1 .grid-col-1 .grid-item{height:auto}.module-grid-374 .grid-row-1 .grid-col-1 .grid-items{justify-content:flex-start}.module-grid-374 .grid-row-2::before{display:block;left:0;width:100vw}.module-grid-374 .grid-row-2 .grid-col-1{width:15%}.module-grid-374 .grid-row-2 .grid-col-1 .grid-item{height:auto}.module-grid-374 .grid-row-2 .grid-col-1 .grid-items{justify-content:flex-start}.module-grid-374 .grid-row-2 .grid-col-2{width:15%}.module-grid-374 .grid-row-2 .grid-col-2 .grid-item{height:auto}.module-grid-374 .grid-row-2 .grid-col-2 .grid-items{justify-content:flex-start}.module-grid-374 .grid-row-2 .grid-col-3{width:15%}.module-grid-374 .grid-row-2 .grid-col-3 .grid-item{height:auto}.module-grid-374 .grid-row-2 .grid-col-3 .grid-items{justify-content:flex-start}.module-grid-374 .grid-row-2 .grid-col-4{width:15%}.module-grid-374 .grid-row-2 .grid-col-4 .grid-item{height:auto}.module-grid-374 .grid-row-2 .grid-col-4 .grid-items{justify-content:flex-start}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'name' => 'New Column',
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-374',
+      3 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '375',
+                  'name' => 'Підтримка у месенджері',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '377',
+                  'name' => 'pidtrumka messenger',
+                  'type' => 'icons_menu',
+                ),
+              ),
+              3 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-3',
+                ),
+                'item' => 
+                array (
+                  'id' => '378',
+                  'name' => 'central office mobile',
+                  'type' => 'title',
+                ),
+              ),
+              4 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-4',
+                ),
+                'item' => 
+                array (
+                  'id' => '383',
+                  'name' => 'Наші партнери mobile',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-2',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '349',
+                  'name' => 'Visa',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '350',
+                  'name' => 'Apay',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-3',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '348',
+                  'name' => 'Gpay',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          4 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-4',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '351',
+                  'name' => 'Mastercard',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

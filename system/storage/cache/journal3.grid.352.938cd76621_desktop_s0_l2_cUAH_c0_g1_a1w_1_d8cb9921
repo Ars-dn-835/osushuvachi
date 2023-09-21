@@ -1,0 +1,135 @@
+<?php $val = array (
+  'css' => '.module-grid-352 .grid-row-1{padding:0px}.module-grid-352 .grid-row-1::before{display:block;left:0;width:100vw}.module-grid-352 .grid-row-1 .grid-col-1{width:25%;padding-top:0px;padding-bottom:0px}.module-grid-352 .grid-row-1 .grid-col-1 .grid-item{height:auto}.module-grid-352 .grid-row-1 .grid-col-2{width:25%;padding-top:0px;padding-bottom:0px;padding-left:0px}.module-grid-352 .grid-row-1 .grid-col-2 .grid-item{height:auto}.module-grid-352 .grid-row-1 .grid-col-3{width:25%;padding-top:0px;padding-right:8px;padding-bottom:0px;padding-left:0px}.module-grid-352 .grid-row-1 .grid-col-3 .grid-item{height:auto}.module-grid-352 .grid-row-1 .grid-col-4{width:25%;padding:0px;padding-top:0px;padding-bottom:0px}.module-grid-352 .grid-row-1 .grid-col-4 .grid-item{height:auto}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'name' => 'New Column',
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-352',
+      3 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '349',
+                  'name' => 'Visa',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '350',
+                  'name' => 'Apay',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-3',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '348',
+                  'name' => 'Gpay',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          4 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-4',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '351',
+                  'name' => 'Mastercard',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

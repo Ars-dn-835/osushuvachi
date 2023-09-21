@@ -1,0 +1,196 @@
+<?php $val = array (
+  'data' => 
+  array (
+    28 => 
+    array (
+      'php' => 
+      array (
+        'type' => 'special',
+        'label' => 'Скидка %',
+        'display' => 'default',
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-28{display:flex;margin-top:5px;margin-right:5px;position:absolute;top:0;right:initial;bottom:initial;left:0}.product-label-diagonal.product-label-28{display:block;top:initial;left:initial;right:0;bottom:0;transform:translate3d(130px, -8px, 0) rotate(-45deg)}.product-label-diagonal.product-label-28>b{transform:scale(calc(10 / 10))}.product-label-28
+b{background:rgba(241,79,79,1)}.product-label-28{order:0}.product-info .product-label-diagonal.product-label-28>b{transform:scale(calc(10 / 10))}',
+    ),
+    29 => 
+    array (
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Новинка',
+        'display' => 'default',
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-29{display:flex;position:absolute;top:0;right:initial;bottom:initial;left:0}.product-label-diagonal.product-label-29{display:block}.product-label-diagonal.product-label-29>b{transform:scale(calc(10 / 10))}.product-label-29
+b{font-family:Proxima Nova SmBl;font-size:14px;color:rgba(255,255,255,1);font-weight:400;font-style:normal;text-transform:none;letter-spacing:0.14px;background:rgba(79,173,241,1);padding:5px;padding-top:5px;padding-right:9px;padding-bottom:5px;padding-left:9px}.product-label-29{margin-top:10px;margin-left:10px}.product-info .product-label-diagonal.product-label-29>b{transform:scale(calc(10 / 10))}',
+    ),
+    345 => 
+    array (
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Распродажа',
+        'display' => 'default',
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-345{display:flex;margin-top:30px;position:absolute;top:0;right:initial;bottom:initial;left:0}.product-label-diagonal.product-label-345{display:block;top:0;left:0;right:initial;bottom:initial;transform:translate3d(-130px, 8px, 0) rotate(-45deg)}.product-label-diagonal.product-label-345>b{transform:scale(calc(10 / 10))}.product-label-345
+b{font-size:14px;color:rgba(255, 255, 255, 1);background:rgba(241, 79, 79, 1)}.product-info .product-label-diagonal.product-label-345>b{transform:scale(calc(10 / 10))}',
+    ),
+    346 => 
+    array (
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Хит продаж',
+        'display' => 'default',
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-346{display:flex;position:absolute;top:0;right:initial;bottom:initial;left:0}.product-label-diagonal.product-label-346{display:block;top:0;left:0;right:initial;bottom:initial;transform:translate3d(-130px, 8px, 0) rotate(-45deg)}.product-label-diagonal.product-label-346>b{transform:scale(calc(10 / 10))}.product-label-346
+b{font-size:14px;color:rgba(255, 255, 255, 1);background:rgba(239, 203, 75, 1)}.product-info .product-label-diagonal.product-label-346>b{transform:scale(calc(10 / 10))}',
+    ),
+    217 => 
+    array (
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Label',
+        'display' => 'default',
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-217{display:flex;margin-top:5px;margin-right:5px;position:absolute;top:0;right:initial;bottom:initial;left:0}.product-label-diagonal.product-label-217{display:block}.product-label-diagonal.product-label-217>b{transform:scale(calc(10 / 10))}.product-label-217
+b{font-size:14px;color:rgba(255,255,255,1);background:rgba(239,203,75,1)}.product-label-217{order:1}.product-info .product-label-diagonal.product-label-217>b{transform:scale(calc(10 / 10))}',
+    ),
+  ),
+  'all' => 
+  array (
+  ),
+  'special' => 
+  array (
+    28 => 28,
+  ),
+  'outofstock' => 
+  array (
+  ),
+  'custom' => 
+  array (
+    411 => 
+    array (
+      29 => 29,
+      346 => 346,
+    ),
+    415 => 
+    array (
+      29 => 29,
+      346 => 346,
+    ),
+    435 => 
+    array (
+      29 => 29,
+    ),
+    470 => 
+    array (
+      29 => 29,
+      346 => 346,
+    ),
+    472 => 
+    array (
+      29 => 29,
+      346 => 346,
+    ),
+    473 => 
+    array (
+      29 => 29,
+      346 => 346,
+    ),
+    489 => 
+    array (
+      29 => 29,
+    ),
+    490 => 
+    array (
+      29 => 29,
+    ),
+    491 => 
+    array (
+      29 => 29,
+      346 => 346,
+    ),
+    493 => 
+    array (
+      29 => 29,
+    ),
+    494 => 
+    array (
+      29 => 29,
+      345 => 345,
+      346 => 346,
+    ),
+    495 => 
+    array (
+      29 => 29,
+      346 => 346,
+    ),
+    497 => 
+    array (
+      29 => 29,
+    ),
+    496 => 
+    array (
+      345 => 345,
+    ),
+    501 => 
+    array (
+      345 => 345,
+    ),
+    412 => 
+    array (
+      346 => 346,
+    ),
+    445 => 
+    array (
+      346 => 346,
+    ),
+    475 => 
+    array (
+      346 => 346,
+    ),
+    476 => 
+    array (
+      346 => 346,
+    ),
+    477 => 
+    array (
+      346 => 346,
+    ),
+    481 => 
+    array (
+      346 => 346,
+    ),
+  ),
+);

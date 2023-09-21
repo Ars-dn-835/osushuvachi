@@ -1,0 +1,36 @@
+<?php $val = array (
+  'css' => '.module-title-326{font-family:Proxima Nova SmBl;margin-top:27px;margin-bottom:54px}.module-title-326
+.subtitle{display:inline-block;font-family:Proxima Nova Rg;font-size:20px;color:rgba(52, 52, 52, 1);font-weight:400}.module-title-326 .title-divider{display:none;max-width:50px;height:0px;margin-top:10px;margin-bottom:10px;margin-left:0;margin-right:auto;margin-left:0;margin-right:auto}.module-title-326 .title-wrapper{text-align:left;text-align:left}.module-title-326
+h3{font-family:Proxima Nova Bl;font-size:24px;color:rgba(52, 52, 52, 1);font-weight:700;margin-bottom:28px}.module-title-326 .title-wrapper
+h3{font-family:Proxima Nova Bl;font-size:40px;color:rgba(0, 0, 0, 1);font-weight:700}.module-title-326 .title-wrapper
+.subtitle{font-family:Proxima Nova Rg;font-size:20px;color:rgba(0, 0, 0, 1)}.module-title-326 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-326 .title-wrapper
+h3{font-size:20px}.module-title-326 .title-wrapper
+.subtitle{font-size:18px}.module-title-326{margin-right:10px;margin-left:10px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Осушители воздуха',
+    'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus iaculis urna id volutpat lacus laoreet non. Est sit amet facilisis magna etiam tempor orci eu. Pharetra vel turpis nunc eget lorem dolor. Sit amet consectetur adipiscing elit duis tristique. Purus gravida quis blandit turpis cursus in hac habitasse platea. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.',
+    'status' => true,
+    'id' => 'title-650acd531f399',
+    'module_id' => 326,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-326',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

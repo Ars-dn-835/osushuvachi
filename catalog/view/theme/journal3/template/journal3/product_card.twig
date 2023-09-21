@@ -1,0 +1,388 @@
+{% set prefix = display == 'grid' ? 'ProductGrid' : 'ProductList' %}
+{% for product in products %}
+    {% set classes = j3.classes({
+        'out-of-stock': product.quantity <= 0,
+        'has-countdown': product.date_end,
+        'has-zero-price': not product.price_value,
+        'has-extra-button': product.extra_buttons,
+    }) %}
+    <div class="product-layout {{ j3.classes(product.classes) }} {{ classes }}">
+        <div class="product-thumb">
+            {% if module_id == 343 %}
+                <style>
+                    .right
+                    {
+                        position: absolute;
+                        right: 20px;
+                        bottom: 20px;
+                    }
+                </style>
+                <div class="slide__attribute attribute right">
+                    <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;" class="attribute__wifi"><svg xmlns="http://www.w3.org/2000/svg" width="43" height="28"
+                                                                                                                                               viewBox="0 0 43 28" fill="none">
+                            <path
+                                    d="M21.5003 21.9438C19.7617 21.9438 18.3464 23.0938 18.3464 24.5066C18.3464 25.9193 19.7617 27.0693 21.5003 27.0693C23.2389 27.0693 24.6541 25.9193 24.6541 24.5066C24.6541 23.0938 23.2389 21.9438 21.5003 21.9438ZM21.5018 25.7879C21.5003 25.7879 21.5003 25.7867 21.5003 25.7854L23.0772 25.7879H21.5018Z"
+                                    fill="#010101" stroke="black" />
+                            <path
+                                    d="M14.0777 18.4756C13.4633 18.9749 13.4633 19.7807 14.0762 20.2825C14.6845 20.7818 15.6839 20.7867 16.303 20.2912C16.8373 19.8633 21.6836 16.2207 26.693 20.2875C27.001 20.5378 27.4045 20.6629 27.808 20.6629C28.2115 20.6629 28.6149 20.5377 28.9229 20.2875C29.5389 19.787 29.5389 18.9761 28.9229 18.4756C23.0526 13.7043 16.6433 16.3896 14.0777 18.4756Z"
+                                    fill="#010101" stroke="black" />
+                            <path
+                                    d="M7.77035 13.3499C7.15591 13.8492 7.15591 14.6588 7.76882 15.1593C8.38479 15.6623 9.3827 15.6611 9.99867 15.1631C10.4699 14.7839 21.6746 5.96209 33.001 15.1618C33.309 15.4121 33.7125 15.5372 34.1159 15.5372C34.5194 15.5372 34.9229 15.4121 35.2309 15.1618C35.8469 14.6613 35.8469 13.8504 35.2309 13.3499C21.6638 2.32323 7.90586 13.2385 7.77035 13.3499Z"
+                                    fill="#010101" stroke="black" />
+                            <path
+                                    d="M41.538 8.22526C21.7311 -7.87176 1.66081 8.06008 1.46217 8.22526C0.846198 8.72454 0.846198 9.5354 1.46064 10.0359C2.07661 10.5365 3.07452 10.5365 3.69049 10.0384C4.42044 9.44905 21.748 -4.23167 39.3082 10.0372C39.6162 10.2874 40.0196 10.4126 40.4231 10.4126C40.8266 10.4126 41.23 10.2874 41.538 10.0372C42.154 9.53665 42.154 8.72579 41.538 8.22526Z"
+                                    fill="#010101" stroke="black" />
+                        </svg></div>
+                    <div style="display: flex; flex-direction: column; align-items: center;" class="attribute__water water">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="34" viewBox="0 0 26 34"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M13 0.787109C9.6987 5.68705 6.42097 10.4686 3.05074 15.2921C1.43769 17.5998 0 20.1309 0 22.8151C0 25.8504 1.45524 28.5986 3.80781 30.5884C6.16038 32.5777 9.41029 33.8084 13 33.8084C16.5897 33.8084 19.8395 32.5777 22.1922 30.5884C24.5449 28.5987 26 25.8504 26 22.8151C26 20.1309 24.5622 17.5998 22.9493 15.292C19.579 10.4686 16.3012 5.68705 13 0.787109Z"
+                                  fill="#231F20" />
+                        </svg>
+                        <div class="water__text">20 л</div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; align-items: center;" class="attribute__home home">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="27" viewBox="0 0 32 27"
+                             fill="none">
+                            <path
+                                    d="M31.7297 12.8213L16.6525 0.572541C16.2924 0.279856 15.708 0.279856 15.3477 0.572541L0.270158 12.8213C0.00650343 13.0357 -0.0725097 13.3583 0.0701298 13.6384C0.213116 13.9184 0.549615 14.1011 0.922917 14.1011H2.7128V24.9379C2.7128 25.9499 3.72275 26.77 4.96843 26.77H12.1014V20.6681C12.1014 20.6681 12.5146 19.9185 13.0244 19.9185H18.9759C19.4853 19.9185 19.8985 20.2542 19.8985 20.6681V26.77H27.0319C28.2772 26.77 29.2871 25.9496 29.2871 24.9379V14.1011H31.0773C31.4505 14.1011 31.7868 13.9184 31.9298 13.6384C32.0725 13.3583 31.9937 13.0357 31.7297 12.8213Z"
+                                    fill="black" />
+                        </svg>
+                        <div class="home__text">25 м2</div>
+                    </div>
+                </div>
+            {% endif %}
+            {% if  module_id != 343 %}
+            {% if product.labels %}
+            <div style="position: relative; display: flex; justify-content: space-between; padding: 0 20px 0 0;">
+                    <div style="position: relative;">
+                        <div style="position: unset; display: flex; justify-content: center;" class="product-labels">
+                            {% for id, label in product.labels %}
+                                <span style="position: unset; margin: 0;"
+                                      class="product-label product-label-{{ id }} product-label-{{ label.display }}"><b>{{ label.label }}</b></span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                <div style="position: relative; display: flex; ">
+                    {% if product.rating %}
+                        <div style="position: unset; height: 40px;"
+                             class="rating {% if j3.settings.getIn(prefix ~ 'RatingPosition', _context) == "hover" %}rating-hover{% endif %}">
+                            <div style="display: flex; justify-content: center; align-items: center; transform: none; position: unset;"
+                                 class="rating-stars">
+                                {% set counterRating = 0 %}
+                                {% for i in 1..5 %}
+                                    {% if product.rating < i %}
+                                    {% else %}
+                                        {% set counterRating = counterRating + 1 %}
+                                    {% endif %}
+                                {% endfor %}
+                                {{ counterRating }}.0<span style="color: #E5C622; font-size: 16px; margin-left: 2px;"
+                                                           class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div style="position: unset; height: 40px;"
+                             class="rating {% if j3.settings.getIn(prefix ~ 'RatingPosition', _context) == "hover" %}rating-hover{% endif %}">
+                            <div style="display: flex; justify-content: center; align-items: center; transform: none; position: unset;"
+                                 class="rating-stars">
+                                {% set counterRating = 0 %}
+                                {% for i in 1..5 %}
+                                    {% if product.rating < i %}
+                                    {% else %}
+                                        {% set counterRating = counterRating + 1 %}
+                                    {% endif %}
+                                {% endfor %}
+                                {{ counterRating }}.0<span style="color: #E5C622; font-size: 16px; margin-left: 2px;"
+                                                           class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                            </div>
+                        </div>
+                    {% endif %}
+                    {% if j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
+                        <div style="position: unset !important; margin-left: 20px; display: flex; align-items: start;" class="wish-group">
+                            {% if j3.settings.get('catalogWishlistStatus') %}
+                                <a style="border: none;"
+                                   class="btn btn-wishlist" {% if (j3.settings.getIn(prefix ~ 'WishlistDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'WishlistTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} wishlist-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'WishlistTooltipPosition', _context) }}" title="{{ button_wishlist }}" {% endif %}
+                                   onclick="wishlist.add('{{ product.product_id }}')"><span
+                                            class="btn-text">{{ button_wishlist }}</span></a>
+                            {% endif %}
+
+                            {% if j3.settings.get('catalogCompareStatus') %}
+                                <a class="btn btn-compare" {% if (j3.settings.getIn(prefix ~ 'CompareDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'CompareTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} compare-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'CompareTooltipPosition', _context) }}" title="{{ button_compare }}" {% endif %}
+                                   onclick="compare.add('{{ product.product_id }}')"><span
+                                            class="btn-text">{{ button_compare }}</span></a>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% else %}
+                <div style="position: relative; display: flex; justify-content: end; padding: 0 20px 0 0;">
+                    <div style="position: relative; display: flex; ">
+                        {% if product.rating %}
+                            <div style="position: unset; height: 40px;"
+                                 class="rating {% if j3.settings.getIn(prefix ~ 'RatingPosition', _context) == "hover" %}rating-hover{% endif %}">
+                                <div style="display: flex; justify-content: center; align-items: center; transform: none; position: unset;"
+                                     class="rating-stars">
+                                    {% set counterRating = 0 %}
+                                    {% for i in 1..5 %}
+                                        {% if product.rating < i %}
+                                        {% else %}
+                                            {% set counterRating = counterRating + 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                    {{ counterRating }}.0<span style="color: #E5C622; font-size: 16px; margin-left: 2px;"
+                                                               class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                                </div>
+                            </div>
+                        {% else %}
+                            <div style="position: unset; height: 40px;"
+                                 class="rating {% if j3.settings.getIn(prefix ~ 'RatingPosition', _context) == "hover" %}rating-hover{% endif %}">
+                                <div style="display: flex; justify-content: center; align-items: center; transform: none; position: unset;"
+                                     class="rating-stars">
+                                    {% set counterRating = 0 %}
+                                    {% for i in 1..5 %}
+                                        {% if product.rating < i %}
+                                        {% else %}
+                                            {% set counterRating = counterRating + 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                    {{ counterRating }}.0<span style="color: #E5C622; font-size: 16px; margin-left: 2px;"
+                                                               class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {% if j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
+                            <div style="position: unset !important; margin-left: 20px; display: flex; align-items: start;" class="wish-group">
+                                {% if j3.settings.get('catalogWishlistStatus') %}
+                                    <a style="border: none;"
+                                       class="btn btn-wishlist" {% if (j3.settings.getIn(prefix ~ 'WishlistDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'WishlistTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} wishlist-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'WishlistTooltipPosition', _context) }}" title="{{ button_wishlist }}" {% endif %}
+                                       onclick="wishlist.add('{{ product.product_id }}')"><span
+                                                class="btn-text">{{ button_wishlist }}</span></a>
+                                {% endif %}
+
+                                {% if j3.settings.get('catalogCompareStatus') %}
+                                    <a class="btn btn-compare" {% if (j3.settings.getIn(prefix ~ 'CompareDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'CompareTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} compare-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'CompareTooltipPosition', _context) }}" title="{{ button_compare }}" {% endif %}
+                                       onclick="compare.add('{{ product.product_id }}')"><span
+                                                class="btn-text">{{ button_compare }}</span></a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+            {% if (j3.settings.getIn(prefix ~ 'NamePosition', _context) == "image") %}
+                <div class="name"><a href="{{ product.href }}">{{ product.name }}</a></div>
+            {% endif %}
+            {% endif %}
+
+            <div class="image">
+                {% if j3.settings.get('quickviewStatus') %}
+                    <div class="quickview-button">
+                        <a class="btn btn-quickview"
+                           {% if j3.settings.getIn(prefix ~ 'QuickviewDisplay', _context) == 'icon' and j3.settings.getIn(prefix ~ 'QuickviewTooltipStatus', _context) %}data-toggle="tooltip"
+                           data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} quickview-tooltip"
+                           data-placement="{{ j3.settings.getIn(prefix ~ 'QuickviewTooltipPosition', _context) }}"
+                           title="{{ j3.settings.get('quickviewText') }}"{% endif %}
+                           onclick="quickview('{{ product.product_id }}')"><span
+                                    class="btn-text">{{ j3.settings.get('quickviewText') }}</span></a>
+                    </div>
+                {% endif %}
+
+                <a href="{{ product.href }}"
+                   class="product-img {% if product.second_thumb %}has-second-image{% endif %}">
+                    <div>
+                        {% if j3.settings.get('performanceLazyLoadImagesStatus') %}
+                            <img src="{{ dummy_image }}" data-src="{{ product.thumb }}"
+                                 {% if product.thumb2x %}data-srcset="{{ product.thumb }} 1x, {{ product.thumb2x }} 2x" {% endif %}
+                                 width="{{ image_width }}" height="{{ image_height }}" alt="{{ product.name }}"
+                                 title="{{ product.name }}" class="img-responsive img-first lazyload"/>
+                        {% else %}
+                            <img src="{{ product.thumb }}"
+                                 {% if product.thumb2x %}srcset="{{ product.thumb }} 1x, {{ product.thumb2x }} 2x" {% endif %}
+                                 width="{{ image_width }}" height="{{ image_height }}" alt="{{ product.name }}"
+                                 title="{{ product.name }}" class="img-responsive img-first"/>
+                        {% endif %}
+
+                        {% if product.second_thumb %}
+                            {% if j3.settings.get('performanceLazyLoadImagesStatus') %}
+                                <img src="{{ dummy_image }}" data-src="{{ product.second_thumb }}"
+                                     {% if product.second_thumb2x %}data-srcset="{{ product.second_thumb }} 1x, {{ product.second_thumb2x }} 2x" {% endif %}
+                                     width="{{ image_width }}" height="{{ image_height }}" alt="{{ product.name }}"
+                                     title="{{ product.name }}" class="img-responsive img-second lazyload"/>
+                            {% else %}
+                                <img src="{{ product.second_thumb }}"
+                                     {% if product.second_thumb2x %}srcset="{{ product.second_thumb }} 1x, {{ product.second_thumb2x }} 2x" {% endif %}
+                                     width="{{ image_width }}" height="{{ image_height }}" alt="{{ product.name }}"
+                                     title="{{ product.name }}" class="img-responsive img-second"/>
+                            {% endif %}
+                        {% endif %}
+
+                    </div>
+                </a>
+
+                {% if j3.settings.get('countdownStatus') and product.date_end %}
+                    <div class="countdown" data-date="{{ product.date_end }}"></div>
+                {% endif %}
+
+            </div>
+
+            <div class="caption">
+                {% if product.stat1 or product.stat2 %}
+                    <div class="stats">
+                        {% if product.stat1 %}
+                            <span class="stat-1"><span
+                                        class="stats-label">{{ product.stat1.label }}:</span> <span>{{ product.stat1.text }}</span></span>
+                        {% endif %}
+                        {% if product.stat2 %}
+                            <span class="stat-2"><span
+                                        class="stats-label">{{ product.stat2.label }}:</span> <span>{{ product.stat2.text }}</span></span>
+                        {% endif %}
+                    </div>
+                {% endif %}
+
+                {% if (j3.settings.getIn(prefix ~ 'NamePosition', _context) == "default") %}
+                    <div class="name"><a href="{{ product.href }}">{{ product.name }}</a></div>
+                {% endif %}
+
+                {#  attributes #}
+                    {% if  module_id != 343 %}
+                        <div class="attributes">
+                         {% for attribute_one in product.attribute_one %}
+                                <p style="display: flex; justify-content: space-between; margin-bottom: 0;">
+                                     {% if attribute_one.attribute_id == 54 or attribute_one.attribute_id == 59 %}
+                                        <span style="max-width: 75%;" class="first__name__cust">
+                                          {{ attribute_one.name }}
+                                        </span>
+                                         <span class="first__text__cust">
+                                          {{ attribute_one.text }}
+                                        </span>
+                                    {% endif %}
+                                </p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {# attributes #}
+
+
+
+
+
+
+
+                <div class="description">{{ product.description }}</div>
+
+                {% if product.price %}
+                    <div style="    display: flex; justify-content: space-between; width: 100%;" class="price">
+                        <div>
+                            {% if module_id == 343 %}
+                                <div class="hit-price">
+                                    {% if product.special %}
+                                        <span class="price-new hit-price-new">{{ product.special }}</span>
+                                        <span class="price-old hit-price-old">{{ product.price }}</span>
+                                    {% else %}
+                                        <span class="price-normal hit-price-normal">{{ product.price }}</span>
+                                    {% endif %}
+                                </div>
+                            {% else %}
+                            <div>
+                                {% if product.special %}
+                                    <span class="price-new">{{ product.special }}</span> <span
+                                        class="price-old">{{ product.price }}</span>
+                                {% else %}
+                                    <span class="price-normal">{{ product.price }}</span>
+                                {% endif %}
+                            </div>
+                            {% if product.tax %}
+                                <span class="price-tax">{{ text_tax }}{{ product.tax }}</span>
+                            {% endif %}
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if module_id != 343 %}
+                            {% if product.payment_pb_chastyami.payment_pb_chastyami == 1 or product.payment_pb_rassrochka.payment_pb_rassrochka == 1 %}
+                                <img src="https://osushuvachi.webfun.com.ua/image/catalog/icons/privat.png"
+                                     alt="privat" title="privat">
+                            {% endif %}
+                            {% if product.payment_mono_chastyami.payment_mono_chastyami == 1 %}
+                                <img style="margin-left: 12px;" src="https://osushuvachi.webfun.com.ua/image/catalog/icons/mono.png" alt="mono"
+                                     title="mono">
+                            {% endif %}
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endif %}
+
+                {% if j3.settings.get('catalogCartStatus') or j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
+                    <div class="buttons-wrapper">
+                        <div class="button-group">
+                            {% if j3.settings.get('catalogCartStatus') %}
+                                <div class="cart-group">
+                                    <div class="stepper">
+                                        <span class="stepper-arrow stepper__minus"
+                                              v-on:click="updateCartItemQuantity(index, -1)"><svg height="1em"
+                                                                                                  viewBox="0 0 320 512"><path
+                                                        d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                                        <input type="text" name="quantity" value="{{ product.minimum }}"
+                                               data-minimum="{{ product.minimum }}" class="form-control"/>
+                                        <input type="hidden" name="product_id" value="{{ product.product_id }}"/>
+                                        <span class="stepper-arrow stepper__plus"
+                                              v-on:click="updateCartItemQuantity(index, 1)"><svg height="1em"
+                                                                                                 viewBox="0 0 320 512"><path
+                                                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                                    </div>
+{#                                    Додавання кнопки Переглянути в моб меню#}
+                                    <a href="{{ product.href }}" class="btn btn-mobview">
+                                        <span class="btn-view">{{ button_view }}</span>
+                                    </a>
+{#                                    Додавання кнопки Переглянути в моб меню#}
+                                    <a class="btn btn-cart" {% if (j3.settings.getIn(prefix ~ 'CartDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'CartTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} cart-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'CartTooltipPosition', _context) }}" title="{{ button_cart }}" {% endif %}
+                                       onclick="cart.add('{{ product.product_id }}', $(this).closest('.product-thumb').find('.button-group input[name=\'quantity\']').val());"
+                                       data-loading-text="<span class='btn-text'>{{ button_cart }}</span>"><span
+                                                class="btn-text">{{ button_cart }}</span></a>
+                                </div>
+
+                            {% endif %}
+
+
+                        </div>
+                    </div>
+
+                {% endif %}
+
+
+                {% if product.extra_buttons %}
+                    <div class="extra-group">
+                        <div>
+                            {% for id, extra_button in product.extra_buttons %}
+                                <a class="btn btn-extra btn-extra-{{ id }}"
+                                        {% if (j3.settings.getIn(prefix ~ 'ExtraButtonDisplay' ~ loop.index, _context) == "icon") and (j3.settings.getIn(prefix ~ 'ExtraButtonTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} extra-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'ExtraButtonTooltipPosition', _context) }}" title="{{ extra_button.label }}" {% endif %}
+                                        {% if extra_button.action == 'quickbuy' %}onclick="cart.add('{{ product.product_id }}', $(this).closest('.product-thumb').find('.button-group input[name=\'quantity\']').val(), true);"{% endif %}
+                                        {% if extra_button.action == 'link' and extra_button.link.href %}href="{{ extra_button.link.href }}" {{ j3.linkAttrs(extra_button.link) }} data-product_id="{{ product.product_id }}" data-product_url="{{ product.href }}"{% endif %}
+                                   data-loading-text="<span class='btn-text'>{{ extra_button.label }}</span>">
+                                    <span class="btn-text">{{ extra_button.label }}</span>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endfor %}
+<style>
+    .product-grid .product-thumb .btn-cart::before {
+        position: unset;
+    }
+
+    .product-grid .product-thumb .btn-cart .btn-text {
+        padding: 0 !important;
+    }
+
+    .product-grid .product-thumb .btn-cart.btn {
+        display: flex;
+        padding: 0 20px !important;
+        justify-content: space-between;
+    }
+
+</style>

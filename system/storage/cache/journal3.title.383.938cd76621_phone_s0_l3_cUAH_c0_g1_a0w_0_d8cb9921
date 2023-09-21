@@ -1,0 +1,33 @@
+<?php $val = array (
+  'css' => '.module-title-383 .title-wrapper
+h3{font-family:Proxima Nova Bl;font-size:13px;color:rgba(52, 52, 52, 1)}.module-title-383 .title-wrapper
+.subtitle{font-family:Proxima Nova SmBl}.module-title-383{padding-left:10px;margin-bottom:10px}.module-title-383 .title-wrapper::before{opacity:.05;display:none}.module-title-383 .title-divider{display:none;margin-left:0;margin-right:auto}.module-title-383 .title-wrapper{text-align:left}@media (max-width: 470px){.module-title-383 .title-wrapper
+.subtitle{font-size:18px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Наші партнери',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-650acdb8ce58b',
+    'module_id' => 383,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-383',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

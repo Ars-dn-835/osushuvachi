@@ -1,0 +1,36 @@
+<?php $val = array (
+  'css' => '.module-title-315{text-align:center}.module-title-315
+.subtitle{display:inline-block;font-family:Proxima Nova SmBl;font-size:20px;color:rgba(139, 145, 152, 1);max-width:980px}.module-title-315 .title-divider{display:block;margin-top:15px;margin-bottom:15px;margin-left:0;margin-right:auto;margin-left:0;margin-right:auto}.module-title-315 .title-wrapper{text-align:left;text-align:left}.module-title-315
+h3{font-family:Proxima Nova Bl;font-size:40px;font-weight:700;line-height:37px}.module-title-315 .title-wrapper
+h3{font-family:Proxima Nova Bl;font-size:40px;color:rgba(255, 255, 255, 1)}.module-title-315 .title-wrapper
+.subtitle{font-family:Proxima Nova SmBl;font-size:20px;color:rgba(255, 255, 255, 1)}.module-title-315 .title-wrapper::before{opacity:.05;display:none}@media (max-width: 760px){.module-title-315
+.subtitle{display:inline-block;font-size:14px}.module-title-315 .title-wrapper{text-align:left}.module-title-315 .title-divider{margin-left:0;margin-right:auto}.module-title-315
+h3{font-size:20px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Потрібна <br /> допомога?',
+    'subtitle' => 'Залиши свій email',
+    'status' => true,
+    'id' => 'title-650ace182b377',
+    'module_id' => 315,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-315',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

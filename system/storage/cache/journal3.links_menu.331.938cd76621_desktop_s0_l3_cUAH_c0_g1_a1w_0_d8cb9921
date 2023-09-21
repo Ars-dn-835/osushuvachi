@@ -1,0 +1,90 @@
+<?php $val = array (
+  'css' => '.links-menu-331 .module-body{display:block;justify-content:flex-start;align-items:flex-start;;-webkit-overflow-scrolling:touch;;column-count:initial;column-rule-style:solid}.links-menu-331 .menu-item{border-width:1px 0 0 0;justify-content:flex-start;;flex-grow:0;width:auto}.links-menu-331 .menu-item a .links-text{white-space:normal;color:rgba(105, 105, 115, 1)}.links-menu-331 .menu-item
+a{justify-content:flex-start;;padding-bottom:12px}.links-menu-331 .menu-item a::before{margin-right:7px}.links-menu-331 .count-badge{display:none}.phone footer .links-menu-331 .module-title::before{display:none}.phone footer .links-menu-331 .module-title+.module-body>li{display:flex}div.links-menu-331 .title.module-title{font-size:20px;font-family:Proxima Nova Bl;font-size:16px;color:rgba(255, 255, 255, 1);font-weight:700}div.links-menu-331 .module-body{display:block}div.links-menu-331 .menu-item{border-width:1px 0 0 0}div.links-menu-331 .menu-item a .links-text{white-space:normal;font-family:Proxima Nova Rg;font-size:16px;color:rgba(255, 255, 255, 1)}.phone footer  div.links-menu-331 .module-title::before{display:none}.phone footer  div.links-menu-331 .module-title+.module-body>li{display:flex}@media (max-width: 980px){div.links-menu-331 .title.module-title{font-family:Proxima Nova Rg;font-size:20px;color:rgba(52, 52, 52, 1)}}@media (max-width: 980px){div.links-menu-331 .links-menu-item-1 a .links-text{font-family:Proxima Nova Rg;font-size:14px;color:rgba(52, 52, 52, 1);font-weight:400}}@media (max-width: 980px){div.links-menu-331 .links-menu-item-2 a .links-text{font-family:Proxima Nova Rg;font-size:14px;color:rgba(52, 52, 52, 1);font-weight:400}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Партнерам',
+    'status' => true,
+    'id' => 'links-menu-650ad17fd1340',
+    'module_id' => 331,
+    'classes' => 
+    array (
+      0 => 'links-menu',
+      1 => 'links-menu-331',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Співробітництво',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '18',
+          'href' => 'https://osushuvachi.webfun.com.ua/partners',
+          'name' => 'Партнерам',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Відповіді на питання',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '17',
+          'href' => 'https://osushuvachi.webfun.com.ua/vidpovidi',
+          'name' => 'Відповіді на запитання',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

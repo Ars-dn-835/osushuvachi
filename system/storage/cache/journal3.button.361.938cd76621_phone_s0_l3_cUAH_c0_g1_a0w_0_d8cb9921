@@ -1,0 +1,43 @@
+<?php $val = array (
+  'css' => '.module-button-361
+.btn{transform:scale(calc(100 / 100));transform-origin:center;width:auto;background:none;border-width:0px;padding:0px;box-shadow:none;border-radius:0px !important}.module-button-361{display:flex;justify-content:flex-end}.module-button-361 .btn, .module-button-361 .btn:visited{font-family:Proxima Nova Rg;font-size:17px;color:rgba(53, 145, 208, 1);text-transform:none}.module-button-361 .btn:hover{color:rgba(8, 39, 77, 1) !important;background:none !important}.module-button-361 .btn:active, .module-button-361 .btn:hover:active, .module-button-361 .btn:focus:active{color:rgba(53, 145, 208, 1) !important;background:none !important;box-shadow:none}.module-button-361 .btn:focus{color:rgba(53, 145, 208, 1) !important;background:none;box-shadow:none}.desktop .module-button-361 .btn:hover{box-shadow:none}.module-button-361 .btn.btn.disabled::after{font-size:20px}@media (max-width: 470px){.module-button-361 .btn, .module-button-361 .btn:visited{font-size:14px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Всі новини',
+    'link' => 
+    array (
+      'type' => 'blog_category',
+      'id' => '6',
+      'href' => 'https://osushuvachi.webfun.com.ua/blog?journal_blog_category_id=6',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'id' => 'button-650acdb8aeeae',
+    'module_id' => 361,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-361',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,238 @@
+<?php $val = array (
+  'css' => '.module-grid-339 .grid-row-1::before{display:block;left:0;width:100vw}.module-grid-339 .grid-row-1 .grid-col-1{width:50%;padding-right:11px}.module-grid-339 .grid-row-1 .grid-col-1 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-1 .grid-items{justify-content:flex-start}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-1{width:100%}}.module-grid-339 .grid-row-1 .grid-col-2{width:50%;padding-right:46px;padding-left:53px}.module-grid-339 .grid-row-1 .grid-col-2 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-2 .grid-items{justify-content:center}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-2{width:100%;padding-right:10px;padding-left:10px}}.module-grid-339 .grid-row-1 .grid-col-3{width:50%;padding-left:11px}.module-grid-339 .grid-row-1 .grid-col-3 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-3 .grid-items{justify-content:flex-start}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-3{width:100%}}.module-grid-339 .grid-row-1 .grid-col-4{width:50%;padding-left:11px}.module-grid-339 .grid-row-1 .grid-col-4 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-4 .grid-items{justify-content:flex-start}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-4{width:100%;padding-right:10px;padding-left:10px}}.module-grid-339 .grid-row-1 .grid-col-5{width:50%;padding-right:11px}.module-grid-339 .grid-row-1 .grid-col-5 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-5 .grid-items{justify-content:flex-start}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-5{width:100%;padding-right:10px;padding-left:10px}}.module-grid-339 .grid-row-1 .grid-col-6{width:50%;padding-right:46px;padding-left:53px}.module-grid-339 .grid-row-1 .grid-col-6 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-6 .grid-items{justify-content:center}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-6{width:100%;padding-right:10px;padding-left:10px}}.module-grid-339 .grid-row-1 .grid-col-7{width:50%;padding-right:96px}.module-grid-339 .grid-row-1 .grid-col-7 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-7 .grid-items{justify-content:center}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-7{width:100%;padding-right:10px;padding-left:10px}}.module-grid-339 .grid-row-1 .grid-col-8{width:50%;padding-left:11px}.module-grid-339 .grid-row-1 .grid-col-8 .grid-item{height:auto}.module-grid-339 .grid-row-1 .grid-col-8 .grid-items{justify-content:flex-start}@media (max-width: 760px){.module-grid-339 .grid-row-1 .grid-col-8{width:100%;padding-right:10px;padding-left:10px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-339',
+      3 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '327',
+                  'name' => 'Як працює осушувачі повітря',
+                  'type' => 'banners',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '335',
+                  'name' => 'Як працює осушувачі повітря',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-3',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '340',
+                  'name' => 'Побутові  осушувачі повітря',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          4 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-4',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '336',
+                  'name' => 'Побутові  осушувачі повітря',
+                  'type' => 'banners',
+                ),
+              ),
+            ),
+          ),
+          5 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-5',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '337',
+                  'name' => 'Промислові осушувачі повітря',
+                  'type' => 'banners',
+                ),
+              ),
+            ),
+          ),
+          6 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-6',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '341',
+                  'name' => 'Промислові осушувачі повітря',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          7 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-7',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '342',
+                  'name' => 'Осушувачі для басейнів',
+                  'type' => 'title',
+                ),
+              ),
+            ),
+          ),
+          8 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-8',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '338',
+                  'name' => 'Осушувачі для басейнів',
+                  'type' => 'banners',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);
